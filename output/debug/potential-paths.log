@@ -1,0 +1,282 @@
+Potential paths :
+Show variables in function: aggregate_content [configuration.sh:390]
+
+
+potential_paths =:
+/root/armbian/config/cli/_all_distributions/debootstrap/./packages
+/root/armbian/config/cli/_all_distributions/debootstrap/config_cli_minimal/packages
+/root/armbian/config/cli/jammy/debootstrap/./packages
+/root/armbian/config/cli/jammy/debootstrap/config_cli_minimal/packages
+/root/armbian/config/optional/_any_board/_config/cli/_all_distributions/debootstrap/./packages
+/root/armbian/config/optional/_any_board/_config/cli/_all_distributions/debootstrap/config_cli_minimal/packages
+/root/armbian/config/optional/_any_board/_config/cli/jammy/debootstrap/./packages
+/root/armbian/config/optional/_any_board/_config/cli/jammy/debootstrap/config_cli_minimal/packages
+/root/armbian/config/optional/architectures/armhf/_config/cli/_all_distributions/debootstrap/./packages
+/root/armbian/config/optional/architectures/armhf/_config/cli/_all_distributions/debootstrap/config_cli_minimal/packages
+/root/armbian/config/optional/architectures/armhf/_config/cli/jammy/debootstrap/./packages
+/root/armbian/config/optional/architectures/armhf/_config/cli/jammy/debootstrap/config_cli_minimal/packages
+/root/armbian/config/optional/families/sunxi/_config/cli/_all_distributions/debootstrap/./packages
+/root/armbian/config/optional/families/sunxi/_config/cli/_all_distributions/debootstrap/config_cli_minimal/packages
+/root/armbian/config/optional/families/sunxi/_config/cli/jammy/debootstrap/./packages
+/root/armbian/config/optional/families/sunxi/_config/cli/jammy/debootstrap/config_cli_minimal/packages
+/root/armbian/config/optional/boards/khomp/_config/cli/_all_distributions/debootstrap/./packages
+/root/armbian/config/optional/boards/khomp/_config/cli/_all_distributions/debootstrap/config_cli_minimal/packages
+/root/armbian/config/optional/boards/khomp/_config/cli/jammy/debootstrap/./packages
+/root/armbian/config/optional/boards/khomp/_config/cli/jammy/debootstrap/config_cli_minimal/packages
+/root/armbian/userpatches/cli/_all_distributions/debootstrap/./packages
+/root/armbian/userpatches/cli/_all_distributions/debootstrap/config_cli_minimal/packages
+/root/armbian/userpatches/cli/jammy/debootstrap/./packages
+/root/armbian/userpatches/cli/jammy/debootstrap/config_cli_minimal/packages
+config/cli/jammy/debootstrap/./packages yes
+
+Potential paths :
+Show variables in function: aggregate_content [configuration.sh:390]
+
+
+potential_paths =:
+/root/armbian/config/cli/_all_distributions/debootstrap/./components
+/root/armbian/config/cli/_all_distributions/debootstrap/config_cli_minimal/components
+/root/armbian/config/cli/jammy/debootstrap/./components
+/root/armbian/config/cli/jammy/debootstrap/config_cli_minimal/components
+/root/armbian/config/optional/_any_board/_config/cli/_all_distributions/debootstrap/./components
+/root/armbian/config/optional/_any_board/_config/cli/_all_distributions/debootstrap/config_cli_minimal/components
+/root/armbian/config/optional/_any_board/_config/cli/jammy/debootstrap/./components
+/root/armbian/config/optional/_any_board/_config/cli/jammy/debootstrap/config_cli_minimal/components
+/root/armbian/config/optional/architectures/armhf/_config/cli/_all_distributions/debootstrap/./components
+/root/armbian/config/optional/architectures/armhf/_config/cli/_all_distributions/debootstrap/config_cli_minimal/components
+/root/armbian/config/optional/architectures/armhf/_config/cli/jammy/debootstrap/./components
+/root/armbian/config/optional/architectures/armhf/_config/cli/jammy/debootstrap/config_cli_minimal/components
+/root/armbian/config/optional/families/sunxi/_config/cli/_all_distributions/debootstrap/./components
+/root/armbian/config/optional/families/sunxi/_config/cli/_all_distributions/debootstrap/config_cli_minimal/components
+/root/armbian/config/optional/families/sunxi/_config/cli/jammy/debootstrap/./components
+/root/armbian/config/optional/families/sunxi/_config/cli/jammy/debootstrap/config_cli_minimal/components
+/root/armbian/config/optional/boards/khomp/_config/cli/_all_distributions/debootstrap/./components
+/root/armbian/config/optional/boards/khomp/_config/cli/_all_distributions/debootstrap/config_cli_minimal/components
+/root/armbian/config/optional/boards/khomp/_config/cli/jammy/debootstrap/./components
+/root/armbian/config/optional/boards/khomp/_config/cli/jammy/debootstrap/config_cli_minimal/components
+/root/armbian/userpatches/cli/_all_distributions/debootstrap/./components
+/root/armbian/userpatches/cli/_all_distributions/debootstrap/config_cli_minimal/components
+/root/armbian/userpatches/cli/jammy/debootstrap/./components
+/root/armbian/userpatches/cli/jammy/debootstrap/config_cli_minimal/components
+config/cli/jammy/debootstrap/./components yes
+
+Potential paths :
+Show variables in function: aggregate_content [configuration.sh:390]
+
+
+potential_paths =:
+/root/armbian/config/cli/_all_distributions/main/./packages
+/root/armbian/config/cli/_all_distributions/main/config_cli_minimal/packages
+/root/armbian/config/cli/jammy/main/./packages
+/root/armbian/config/cli/jammy/main/config_cli_minimal/packages
+/root/armbian/config/optional/_any_board/_config/cli/_all_distributions/main/./packages
+/root/armbian/config/optional/_any_board/_config/cli/_all_distributions/main/config_cli_minimal/packages
+/root/armbian/config/optional/_any_board/_config/cli/jammy/main/./packages
+/root/armbian/config/optional/_any_board/_config/cli/jammy/main/config_cli_minimal/packages
+/root/armbian/config/optional/architectures/armhf/_config/cli/_all_distributions/main/./packages
+/root/armbian/config/optional/architectures/armhf/_config/cli/_all_distributions/main/config_cli_minimal/packages
+/root/armbian/config/optional/architectures/armhf/_config/cli/jammy/main/./packages
+/root/armbian/config/optional/architectures/armhf/_config/cli/jammy/main/config_cli_minimal/packages
+/root/armbian/config/optional/families/sunxi/_config/cli/_all_distributions/main/./packages
+/root/armbian/config/optional/families/sunxi/_config/cli/_all_distributions/main/config_cli_minimal/packages
+/root/armbian/config/optional/families/sunxi/_config/cli/jammy/main/./packages
+/root/armbian/config/optional/families/sunxi/_config/cli/jammy/main/config_cli_minimal/packages
+/root/armbian/config/optional/boards/khomp/_config/cli/_all_distributions/main/./packages
+/root/armbian/config/optional/boards/khomp/_config/cli/_all_distributions/main/config_cli_minimal/packages
+/root/armbian/config/optional/boards/khomp/_config/cli/jammy/main/./packages
+/root/armbian/config/optional/boards/khomp/_config/cli/jammy/main/config_cli_minimal/packages
+/root/armbian/userpatches/cli/_all_distributions/main/./packages
+/root/armbian/userpatches/cli/_all_distributions/main/config_cli_minimal/packages
+/root/armbian/userpatches/cli/jammy/main/./packages
+/root/armbian/userpatches/cli/jammy/main/config_cli_minimal/packages
+config/cli/jammy/main/./packages yes
+
+Potential paths :
+Show variables in function: aggregate_content [configuration.sh:390]
+
+
+potential_paths =:
+/root/armbian/config/cli/_all_distributions/main/./packages.additional
+/root/armbian/config/cli/_all_distributions/main/config_cli_minimal/packages.additional
+/root/armbian/config/cli/jammy/main/./packages.additional
+/root/armbian/config/cli/jammy/main/config_cli_minimal/packages.additional
+/root/armbian/config/optional/_any_board/_config/cli/_all_distributions/main/./packages.additional
+/root/armbian/config/optional/_any_board/_config/cli/_all_distributions/main/config_cli_minimal/packages.additional
+/root/armbian/config/optional/_any_board/_config/cli/jammy/main/./packages.additional
+/root/armbian/config/optional/_any_board/_config/cli/jammy/main/config_cli_minimal/packages.additional
+/root/armbian/config/optional/architectures/armhf/_config/cli/_all_distributions/main/./packages.additional
+/root/armbian/config/optional/architectures/armhf/_config/cli/_all_distributions/main/config_cli_minimal/packages.additional
+/root/armbian/config/optional/architectures/armhf/_config/cli/jammy/main/./packages.additional
+/root/armbian/config/optional/architectures/armhf/_config/cli/jammy/main/config_cli_minimal/packages.additional
+/root/armbian/config/optional/families/sunxi/_config/cli/_all_distributions/main/./packages.additional
+/root/armbian/config/optional/families/sunxi/_config/cli/_all_distributions/main/config_cli_minimal/packages.additional
+/root/armbian/config/optional/families/sunxi/_config/cli/jammy/main/./packages.additional
+/root/armbian/config/optional/families/sunxi/_config/cli/jammy/main/config_cli_minimal/packages.additional
+/root/armbian/config/optional/boards/khomp/_config/cli/_all_distributions/main/./packages.additional
+/root/armbian/config/optional/boards/khomp/_config/cli/_all_distributions/main/config_cli_minimal/packages.additional
+/root/armbian/config/optional/boards/khomp/_config/cli/jammy/main/./packages.additional
+/root/armbian/config/optional/boards/khomp/_config/cli/jammy/main/config_cli_minimal/packages.additional
+/root/armbian/userpatches/cli/_all_distributions/main/./packages.additional
+/root/armbian/userpatches/cli/_all_distributions/main/config_cli_minimal/packages.additional
+/root/armbian/userpatches/cli/jammy/main/./packages.additional
+/root/armbian/userpatches/cli/jammy/main/config_cli_minimal/packages.additional
+config/cli/jammy/main/./packages.additional yes
+
+Potential paths :
+Show variables in function: aggregate_content [configuration.sh:390]
+
+
+potential_paths =:
+/root/armbian/config/cli/_all_distributions/main/./packages.remove
+/root/armbian/config/cli/_all_distributions/main/config_cli_minimal/packages.remove
+/root/armbian/config/cli/jammy/main/./packages.remove
+/root/armbian/config/cli/jammy/main/config_cli_minimal/packages.remove
+/root/armbian/config/optional/_any_board/_config/cli/_all_distributions/main/./packages.remove
+/root/armbian/config/optional/_any_board/_config/cli/_all_distributions/main/config_cli_minimal/packages.remove
+/root/armbian/config/optional/_any_board/_config/cli/jammy/main/./packages.remove
+/root/armbian/config/optional/_any_board/_config/cli/jammy/main/config_cli_minimal/packages.remove
+/root/armbian/config/optional/architectures/armhf/_config/cli/_all_distributions/main/./packages.remove
+/root/armbian/config/optional/architectures/armhf/_config/cli/_all_distributions/main/config_cli_minimal/packages.remove
+/root/armbian/config/optional/architectures/armhf/_config/cli/jammy/main/./packages.remove
+/root/armbian/config/optional/architectures/armhf/_config/cli/jammy/main/config_cli_minimal/packages.remove
+/root/armbian/config/optional/families/sunxi/_config/cli/_all_distributions/main/./packages.remove
+/root/armbian/config/optional/families/sunxi/_config/cli/_all_distributions/main/config_cli_minimal/packages.remove
+/root/armbian/config/optional/families/sunxi/_config/cli/jammy/main/./packages.remove
+/root/armbian/config/optional/families/sunxi/_config/cli/jammy/main/config_cli_minimal/packages.remove
+/root/armbian/config/optional/boards/khomp/_config/cli/_all_distributions/main/./packages.remove
+/root/armbian/config/optional/boards/khomp/_config/cli/_all_distributions/main/config_cli_minimal/packages.remove
+/root/armbian/config/optional/boards/khomp/_config/cli/jammy/main/./packages.remove
+/root/armbian/config/optional/boards/khomp/_config/cli/jammy/main/config_cli_minimal/packages.remove
+/root/armbian/userpatches/cli/_all_distributions/main/./packages.remove
+/root/armbian/userpatches/cli/_all_distributions/main/config_cli_minimal/packages.remove
+/root/armbian/userpatches/cli/jammy/main/./packages.remove
+/root/armbian/userpatches/cli/jammy/main/config_cli_minimal/packages.remove
+
+Potential paths :
+Show variables in function: aggregate_content [configuration.sh:390]
+
+
+potential_paths =:
+/root/armbian/config/desktop/_all_distributions/environments/_all_environments/./packages.remove
+/root/armbian/config/desktop/_all_distributions/environments//./packages.remove
+/root/armbian/config/desktop/_all_distributions/environments///./packages.remove
+/root/armbian/config/desktop/jammy/environments/_all_environments/./packages.remove
+/root/armbian/config/desktop/jammy/environments//./packages.remove
+/root/armbian/config/desktop/jammy/environments///./packages.remove
+/root/armbian/config/optional/_any_board/_config/desktop/_all_distributions/environments/_all_environments/./packages.remove
+/root/armbian/config/optional/_any_board/_config/desktop/_all_distributions/environments//./packages.remove
+/root/armbian/config/optional/_any_board/_config/desktop/_all_distributions/environments///./packages.remove
+/root/armbian/config/optional/_any_board/_config/desktop/jammy/environments/_all_environments/./packages.remove
+/root/armbian/config/optional/_any_board/_config/desktop/jammy/environments//./packages.remove
+/root/armbian/config/optional/_any_board/_config/desktop/jammy/environments///./packages.remove
+/root/armbian/config/optional/architectures/armhf/_config/desktop/_all_distributions/environments/_all_environments/./packages.remove
+/root/armbian/config/optional/architectures/armhf/_config/desktop/_all_distributions/environments//./packages.remove
+/root/armbian/config/optional/architectures/armhf/_config/desktop/_all_distributions/environments///./packages.remove
+/root/armbian/config/optional/architectures/armhf/_config/desktop/jammy/environments/_all_environments/./packages.remove
+/root/armbian/config/optional/architectures/armhf/_config/desktop/jammy/environments//./packages.remove
+/root/armbian/config/optional/architectures/armhf/_config/desktop/jammy/environments///./packages.remove
+/root/armbian/config/optional/families/sunxi/_config/desktop/_all_distributions/environments/_all_environments/./packages.remove
+/root/armbian/config/optional/families/sunxi/_config/desktop/_all_distributions/environments//./packages.remove
+/root/armbian/config/optional/families/sunxi/_config/desktop/_all_distributions/environments///./packages.remove
+/root/armbian/config/optional/families/sunxi/_config/desktop/jammy/environments/_all_environments/./packages.remove
+/root/armbian/config/optional/families/sunxi/_config/desktop/jammy/environments//./packages.remove
+/root/armbian/config/optional/families/sunxi/_config/desktop/jammy/environments///./packages.remove
+/root/armbian/config/optional/boards/khomp/_config/desktop/_all_distributions/environments/_all_environments/./packages.remove
+/root/armbian/config/optional/boards/khomp/_config/desktop/_all_distributions/environments//./packages.remove
+/root/armbian/config/optional/boards/khomp/_config/desktop/_all_distributions/environments///./packages.remove
+/root/armbian/config/optional/boards/khomp/_config/desktop/jammy/environments/_all_environments/./packages.remove
+/root/armbian/config/optional/boards/khomp/_config/desktop/jammy/environments//./packages.remove
+/root/armbian/config/optional/boards/khomp/_config/desktop/jammy/environments///./packages.remove
+/root/armbian/userpatches/desktop/_all_distributions/environments/_all_environments/./packages.remove
+/root/armbian/userpatches/desktop/_all_distributions/environments//./packages.remove
+/root/armbian/userpatches/desktop/_all_distributions/environments///./packages.remove
+/root/armbian/userpatches/desktop/jammy/environments/_all_environments/./packages.remove
+/root/armbian/userpatches/desktop/jammy/environments//./packages.remove
+/root/armbian/userpatches/desktop/jammy/environments///./packages.remove
+
+Potential paths :
+Show variables in function: aggregate_content [configuration.sh:390]
+
+
+potential_paths =:
+                                                                                                                           
+
+Potential paths :
+Show variables in function: aggregate_content [configuration.sh:390]
+
+
+potential_paths =:
+/root/armbian/config/cli/_all_distributions/main/./packages.uninstall
+/root/armbian/config/cli/_all_distributions/main/config_cli_minimal/packages.uninstall
+/root/armbian/config/cli/jammy/main/./packages.uninstall
+/root/armbian/config/cli/jammy/main/config_cli_minimal/packages.uninstall
+/root/armbian/config/optional/_any_board/_config/cli/_all_distributions/main/./packages.uninstall
+/root/armbian/config/optional/_any_board/_config/cli/_all_distributions/main/config_cli_minimal/packages.uninstall
+/root/armbian/config/optional/_any_board/_config/cli/jammy/main/./packages.uninstall
+/root/armbian/config/optional/_any_board/_config/cli/jammy/main/config_cli_minimal/packages.uninstall
+/root/armbian/config/optional/architectures/armhf/_config/cli/_all_distributions/main/./packages.uninstall
+/root/armbian/config/optional/architectures/armhf/_config/cli/_all_distributions/main/config_cli_minimal/packages.uninstall
+/root/armbian/config/optional/architectures/armhf/_config/cli/jammy/main/./packages.uninstall
+/root/armbian/config/optional/architectures/armhf/_config/cli/jammy/main/config_cli_minimal/packages.uninstall
+/root/armbian/config/optional/families/sunxi/_config/cli/_all_distributions/main/./packages.uninstall
+/root/armbian/config/optional/families/sunxi/_config/cli/_all_distributions/main/config_cli_minimal/packages.uninstall
+/root/armbian/config/optional/families/sunxi/_config/cli/jammy/main/./packages.uninstall
+/root/armbian/config/optional/families/sunxi/_config/cli/jammy/main/config_cli_minimal/packages.uninstall
+/root/armbian/config/optional/boards/khomp/_config/cli/_all_distributions/main/./packages.uninstall
+/root/armbian/config/optional/boards/khomp/_config/cli/_all_distributions/main/config_cli_minimal/packages.uninstall
+/root/armbian/config/optional/boards/khomp/_config/cli/jammy/main/./packages.uninstall
+/root/armbian/config/optional/boards/khomp/_config/cli/jammy/main/config_cli_minimal/packages.uninstall
+/root/armbian/userpatches/cli/_all_distributions/main/./packages.uninstall
+/root/armbian/userpatches/cli/_all_distributions/main/config_cli_minimal/packages.uninstall
+/root/armbian/userpatches/cli/jammy/main/./packages.uninstall
+/root/armbian/userpatches/cli/jammy/main/config_cli_minimal/packages.uninstall
+
+Potential paths :
+Show variables in function: aggregate_content [configuration.sh:390]
+
+
+potential_paths =:
+/root/armbian/config/desktop/_all_distributions/environments/_all_environments/./packages.uninstall
+/root/armbian/config/desktop/_all_distributions/environments//./packages.uninstall
+/root/armbian/config/desktop/_all_distributions/environments///./packages.uninstall
+/root/armbian/config/desktop/jammy/environments/_all_environments/./packages.uninstall
+/root/armbian/config/desktop/jammy/environments//./packages.uninstall
+/root/armbian/config/desktop/jammy/environments///./packages.uninstall
+/root/armbian/config/optional/_any_board/_config/desktop/_all_distributions/environments/_all_environments/./packages.uninstall
+/root/armbian/config/optional/_any_board/_config/desktop/_all_distributions/environments//./packages.uninstall
+/root/armbian/config/optional/_any_board/_config/desktop/_all_distributions/environments///./packages.uninstall
+/root/armbian/config/optional/_any_board/_config/desktop/jammy/environments/_all_environments/./packages.uninstall
+/root/armbian/config/optional/_any_board/_config/desktop/jammy/environments//./packages.uninstall
+/root/armbian/config/optional/_any_board/_config/desktop/jammy/environments///./packages.uninstall
+/root/armbian/config/optional/architectures/armhf/_config/desktop/_all_distributions/environments/_all_environments/./packages.uninstall
+/root/armbian/config/optional/architectures/armhf/_config/desktop/_all_distributions/environments//./packages.uninstall
+/root/armbian/config/optional/architectures/armhf/_config/desktop/_all_distributions/environments///./packages.uninstall
+/root/armbian/config/optional/architectures/armhf/_config/desktop/jammy/environments/_all_environments/./packages.uninstall
+/root/armbian/config/optional/architectures/armhf/_config/desktop/jammy/environments//./packages.uninstall
+/root/armbian/config/optional/architectures/armhf/_config/desktop/jammy/environments///./packages.uninstall
+/root/armbian/config/optional/families/sunxi/_config/desktop/_all_distributions/environments/_all_environments/./packages.uninstall
+/root/armbian/config/optional/families/sunxi/_config/desktop/_all_distributions/environments//./packages.uninstall
+/root/armbian/config/optional/families/sunxi/_config/desktop/_all_distributions/environments///./packages.uninstall
+/root/armbian/config/optional/families/sunxi/_config/desktop/jammy/environments/_all_environments/./packages.uninstall
+/root/armbian/config/optional/families/sunxi/_config/desktop/jammy/environments//./packages.uninstall
+/root/armbian/config/optional/families/sunxi/_config/desktop/jammy/environments///./packages.uninstall
+/root/armbian/config/optional/boards/khomp/_config/desktop/_all_distributions/environments/_all_environments/./packages.uninstall
+/root/armbian/config/optional/boards/khomp/_config/desktop/_all_distributions/environments//./packages.uninstall
+/root/armbian/config/optional/boards/khomp/_config/desktop/_all_distributions/environments///./packages.uninstall
+/root/armbian/config/optional/boards/khomp/_config/desktop/jammy/environments/_all_environments/./packages.uninstall
+/root/armbian/config/optional/boards/khomp/_config/desktop/jammy/environments//./packages.uninstall
+/root/armbian/config/optional/boards/khomp/_config/desktop/jammy/environments///./packages.uninstall
+/root/armbian/userpatches/desktop/_all_distributions/environments/_all_environments/./packages.uninstall
+/root/armbian/userpatches/desktop/_all_distributions/environments//./packages.uninstall
+/root/armbian/userpatches/desktop/_all_distributions/environments///./packages.uninstall
+/root/armbian/userpatches/desktop/jammy/environments/_all_environments/./packages.uninstall
+/root/armbian/userpatches/desktop/jammy/environments//./packages.uninstall
+/root/armbian/userpatches/desktop/jammy/environments///./packages.uninstall
+
+Potential paths :
+Show variables in function: aggregate_content [configuration.sh:390]
+
+
+potential_paths =:
+                                                                                                                           
+

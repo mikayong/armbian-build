@@ -1,0 +1,1000 @@
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/0000-sunxi-allwinner-a10-spi-driver.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file drivers/spi/Makefile.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/0001-add-orange-pi-3-lts-support.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/dts/Makefile.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/0020-sunxi-call-fdt_fixup_ethernet-again-to-set-macaddr-f.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file board/sunxi/board.c.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/Bananapro-01-add-hdmi-de-reg_ahci_5v.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+5 out of 5 hunks ignored -- saving rejects to file arch/arm/dts/sun7i-a20-bananapro.dts.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/Bananapro-02-add-AXP209-regulators.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/dts/sun7i-a20-bananapro.dts.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/Merrii_Hummingbird_A20.patch
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-a20-optional-eMMC.patch
+1 out of 1 hunk FAILED -- saving rejects to file configs/Cubieboard2_defconfig.rej
+1 out of 1 hunk FAILED -- saving rejects to file configs/Cubietruck_defconfig.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-a64-olinuxino-emmc-support.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/dts/sun50i-a64-olinuxino.dts.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-a64-olinuxino-spl-spi.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/a64-olinuxino_defconfig.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-awsom-defconfig.patch
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-beelink-x2.patch
+1 out of 1 hunk FAILED -- saving rejects to file arch/arm/dts/Makefile.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-emmc_support_to_neo1_and_2.patch
+1 out of 1 hunk FAILED -- saving rejects to file configs/nanopi_neo2_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/nanopi_neo_defconfig.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-h616-THS-workaround.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file board/sunxi/board.c.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-nanopi-air-emmc.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/nanopi_neo_air_defconfig.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-nanopi-duo.patch
+1 out of 1 hunk FAILED -- saving rejects to file arch/arm/dts/Makefile.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-nanopi-m1-plus2-emmc.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/dts/Makefile.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-nanopi-neo-core.patch
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-nanopi-r1-and-duo2.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/dts/Makefile.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-orangepi-plus2-emmc.patch
+1 out of 1 hunk FAILED -- saving rejects to file configs/orangepi_2_defconfig.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-orangepi-zero-plus-pxe-support.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_zero_plus_defconfig.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-orangepi-zero-usb-boot-support.patch
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-orangepi-zeroplus2_h3.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/dts/Makefile.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-pineh64-model-b.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/dts/Makefile.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-sunvell-r69.patch
+1 out of 1 hunk FAILED -- saving rejects to file arch/arm/dts/Makefile.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-xx-boot-auto-dt-select-neo2.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+2 out of 2 hunks ignored -- saving rejects to file board/sunxi/board.c.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/nanopi_neo2_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file dts/Kconfig.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-xx-nanopi-k1-plus-emmc.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/dts/Makefile.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-xx-nanopineocore2.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/dts/Makefile.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/add-zeropi.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/dts/Makefile.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/adjust-default-dram-clockspeeds.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Sinovoip_BPI_M3_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Bananapi_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Bananapro_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Cubieboard2_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Cubieboard_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Cubietruck_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Lamobo_R1_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Linksprite_pcDuino3_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/nanopi_m1_plus_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/nanopi_neo2_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/nanopi_neo_plus2_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Orangepi_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_lite_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Orangepi_mini_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_one_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_pc2_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_plus2e_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_plus_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_prime_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_zero_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_zero_plus2_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/a64-olinuxino_defconfig.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/adjust-small-boards-cpufreq.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/nanopi_neo_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/nanopi_neo_air_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_zero_defconfig.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/enable-autoboot-keyed.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/Kconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+2 out of 2 hunks ignored -- saving rejects to file common/Kconfig.boot.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/enable-ethernet-orangepiprime.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_prime_defconfig.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/enable-r_pio-gpio-access-h3-h5.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+2 out of 2 hunks ignored -- saving rejects to file arch/arm/mach-sunxi/board.c.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/fdt-setprop-fix-unaligned-access.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+2 out of 2 hunks ignored -- saving rejects to file cmd/fdt.c.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/fix-usb1-vbus-opiwin.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_win_defconfig.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/h3-Fix-PLL1-setup-to-never-use-dividers.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/mach-sunxi/clock_sun6i.c.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/h3-enable-power-led.patch
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/h3-set-safe-axi_apb-clock-dividers.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/mach-sunxi/clock_sun6i.c.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/include/asm/arch-sunxi/clock_sun6i.h.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/mach-sunxi/clock_sun6i.c.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/lower-default-DRAM-freq-A64-H5.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/mach-sunxi/Kconfig.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/pinebook-add-rare-panel-support.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+4 out of 4 hunks ignored -- saving rejects to file drivers/video/bridge/anx6345.c.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/sun8i-set-machid.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file include/configs/sun8i.h.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/sunxi-boot-splash.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file cmd/Kconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file include/config_distro_bootcmd.h.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+2 out of 2 hunks ignored -- saving rejects to file include/configs/sunxi-common.h.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/sunxi_H616_GPU_enable_hack.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file arch/arm/mach-sunxi/clock_sun50i_h6.c.rej
+
+Processing file /root/armbian/patch/u-boot/u-boot-sunxi/xxx-disable-de2-to-improve-edid-detection.patch
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Bananapi_M2_Ultra_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Bananapi_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Bananapi_m2m_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Cubieboard2_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Cubieboard_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Cubietruck_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Mele_A1000_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/Orangepi_mini_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/a64-olinuxino-emmc_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/a64-olinuxino_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/bananapi_m1_plus_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/bananapi_m2_plus_h3_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/bananapi_m2_plus_h5_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/bananapi_m2_zero_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/bananapi_m64_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/libretech_all_h3_cc_h2_plus_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/libretech_all_h3_cc_h3_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/libretech_all_h3_cc_h5_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/libretech_all_h5_cc_h5_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/nanopi_a64_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/nanopi_m1_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_2_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_lite2_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_lite_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_one_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_one_plus_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_pc2_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_pc_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_plus2e_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_plus_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_prime_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/orangepi_win_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/pine64-lts_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/pine64_plus_defconfig.rej
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configs/pine_h64_defconfig.rej
+
+[ done ]    megous/dt-bindings-arm-rockchip-add-rk3568-compatible-strin.patch
+[ done ]    megous/dt-bindings-add-doc-for-Firefly-ROC-RK3328-PC.patch
+[ done ]    megous/dt-bindings-add-doc-for-Firefly-ROC-RK3399-PC-PLUS.patch
+[ done ]    megous/dt-bindings-Add-doc-for-ROCK-Pi-4-A-and-B.patch
+[ done ]    megous/dt-bindings-arm-rockchip-Add-gru-scarlet-dumo-board.patch
+[ done ]    megous/dt-bindings-arm-rockchip-add-rk3368-compatible-strin.patch
+[ done ]    megous/dt-bindings-leds-Add-a-binding-for-AXP813-charger-le.patch
+[ done ]    megous/dt-bindings-input-gpio-vibrator-Don-t-require-enable.patch
+[ done ]    megous/dt-bindings-media-Add-bindings-for-Himax-HM5065-came.patch
+[ done ]    megous/dt-bindings-net-bluetooth-Add-rtl8723bs-bluetooth.patch
+[ done ]    megous/dt-bindings-axp20x-adc-allow-to-use-TS-pin-as-GPADC.patch
+[ done ]    megous/ASoC-dt-bindings-sun50i-codec-Add-binding-for-intern.patch
+[ done ]    megous/dt-bindings-arm-sunxi-Expand-MBUS-binding.patch
+[ done ]    megous/hm5065-yaml-bindings-wip.patch
+[ done ]    megous/ARM-sunxi-Add-experimental-suspend-to-memory-impleme.patch
+[ done ]    megous/ARM-sunxi-sunxi_cpu0_hotplug_support_set-is-not-supp.patch
+[ done ]    megous/ARM-sunxi-Use-SCPI-to-send-suspend-message-to-SCP-on.patch
+[ done ]    megous/clk-rockchip-rk3399-make-CPU-clocks-critical.patch
+[ done ]    megous/clk-rockchip-rk3399-expose-PCLK_COREDBG_-B-L.patch
+[ done ]    megous/clk-rockchip-use-module_platform_driver_probe.patch
+[ done ]    megous/clk-sunxi-ng-Set-maximum-P-and-M-factors-to-1-for-H3.patch
+[ done ]    megous/clk-sunxi-ng-Don-t-use-CPU-PLL-gating-and-CPUX-repar.patch
+[ done ]    megous/input-gpio-vibra-Allow-to-use-vcc-supply-alone-to-co.patch
+[ done ]    megous/leds-axp20x-Support-charger-LED-on-AXP20x-like-PMICs.patch
+[ done ]    megous/nfc-pn544-Add-support-for-VBAT-PVDD-regulators.patch
+[ done ]    megous/cpufreq-sun50i-Show-detected-CPU-bin-for-easier-debu.patch
+[ done ]    megous/mailbox-Allow-to-run-mailbox-while-timekeeping-is-su.patch
+[ done ]    megous/bluetooth-bcm-Restore-drive_rts_on_open-true-behavio.patch
+[ done ]    megous/firmware-scpi-Add-support-for-sending-a-SCPI_CMD_SET.patch
+[ done ]    megous/firmware-scpi-Don-t-probe-SCP-during-SCPI-driver-pro.patch
+[ done ]    megous/gnss-ubx-Send-soft-powerdown-message-on-suspend.patch
+[ done ]    megous/mmc-add-delay-after-power-class-selection.patch
+[ done ]    megous/input-sun4i-lradc-keys-Add-wakup-support.patch
+[ done ]    megous/media-sun6i-csi-Add-support-for-RGB565-and-RGB555.patch
+[ done ]    megous/media-sun6i-csi-Pass-on-g_parm-s_parm-to-the-subdev.patch
+[ done ]    megous/media-sun6i-csi-Add-support-for-missing-16bit-color-.patch
+[ done ]    megous/media-sun6i-csi-Add-support-for-multiple-endpoints.patch
+[ done ]    megous/media-sun6i-csi-Fix-vidioc_g-s_parm-to-handle-lack-o.patch
+[ done ]    megous/media-sun6i-csi-Add-some-dev-notes.patch
+[ done ]    megous/media-sun6i-csi-Disable-control-handler-in-the-csi-d.patch
+[ done ]    megous/media-hm5065-Add-subdev-driver-for-Himax-HM5065-came.patch
+[ done ]    megous/MAINTAINERS-Add-entry-for-Himax-HM5065.patch
+[ done ]    megous/media-gc2145-Galaxycore-camera-module-driver.patch
+[ done ]    megous/media-sun6i-csi-Make-the-video-device-respect-user-p.patch
+[ done ]    megous/media-ov5640-Add-more-framerates-to-the-driver-some-.patch
+[ done ]    megous/media-ov5640-Experiment-Try-to-disable-denoising-sha.patch
+[ done ]    megous/media-ov5640-Sleep-after-poweroff-to-ensure-next-pow.patch
+[ done ]    megous/media-ov5640-Don-t-powerup-the-sensor-during-driver-.patch
+[ done ]    megous/media-ov5640-set-default-ae-target-lower.patch
+[ done ]    megous/media-gc2145-Added-BGGR-bayer-mode.patch
+[ done ]    megous/media-i2c-ov5640-Improve-error-reporting.patch
+[ done ]    megous/media-i2c-gc2145-Disable-debug-output.patch
+[ done ]    megous/iio-adc-sun4i-gpadc-iio-Allow-to-use-sun5i-a13-gpadc.patch
+[ done ]    megous/mtd-spi-nor-Add-regulator-support.patch
+[ done ]    megous/input-cyttsp4-De-obfuscate-platform-data-for-keys.patch
+[ done ]    megous/input-cyttsp4-Remove-useless-indirection-with-driver.patch
+[ done ]    megous/input-cyttsp4-Remove-unused-enable_vkeys.patch
+[ done ]    megous/input-cyttsp4-De-obfuscate-MT-signals-setup-platform.patch
+[ done ]    megous/input-cyttsp4-Clear-the-ids-buffer-in-a-saner-way.patch
+[ done ]    megous/input-cyttsp4-ENOSYS-error-is-ok-when-powering-up.patch
+[ done ]    megous/input-cyttsp4-Faster-recovery-from-failed-wakeup-HAC.patch
+[ done ]    megous/input-cyttsp4-Use-i2c-spi-names-directly-in-the-driv.patch
+[ done ]    megous/input-cyttsp4-Port-the-driver-to-use-device-properti.patch
+[ done ]    megous/input-cyttsp4-Restart-on-wakeup-wakeup-by-I2C-read-d.patch
+[ done ]    megous/input-cyttsp4-Fix-warnings.patch
+[ done ]    megous/input-cyttsp4-Make-the-driver-not-hog-the-system-s-w.patch
+[ done ]    megous/net-stmmac-sun8i-Use-devm_regulator_get-for-PHY-regu.patch
+[ done ]    megous/net-stmmac-sun8i-Rename-PHY-regulator-variable-to-re.patch
+[ done ]    megous/net-stmmac-sun8i-Add-support-for-enabling-a-regulato.patch
+[ done ]    megous/iio-core-Add-option-to-force-identity-mount-matrix.patch
+[ done ]    megous/input-touchscreen-goodix-Add-config-debugfs-file.patch
+[ done ]    megous/input-goodix-Add-option-to-power-off-the-controller-.patch
+[ done ]    megous/input-goodix-Don-t-disable-regulators-during-suspend.patch
+[ done ]    megous/video-fbdev-eInk-display-driver-for-A13-based-Pocket.patch
+[ done ]    megous/regulator-Add-simple-driver-for-enabling-a-regulator.patch
+[ done ]    megous/regulator-tp65185x-Add-tp65185x-eInk-panel-regulator.patch
+[ done ]    megous/regulator-tp65185-Add-hwmon-device-for-reading-tempe.patch
+[ done ]    megous/mfd-sun4i-gpadc-Interrupt-numbers-should-start-from-.patch
+[ done ]    megous/8723cs-Add-a-new-driver-v5.12.2-7-g2de5ec386.2020101.patch
+[ done ]    megous/8723cs-Make-the-driver-compile-and-probe-drop-rockch.patch
+[ done ]    megous/8723cs-Enable-OOB-interrupt.patch
+[ done ]    megous/8723cs-Load-the-MAC-address-from-local-mac-address.patch
+[ done ]    megous/8723cs-Modify-makefile-options-to-better-suit-PinePh.patch
+[ done ]    megous/8723cs-Enable-monitor-mode.patch
+[ done ]    megous/8723cs-Disable-power-saving.patch
+[ done ]    megous/8723cs-aes_encrypt-aes_encrypt_128-to-avoid-symbol-n.patch
+[ done ]    megous/8723cs-Enable-wifi-power-saving-mode.patch
+[ done ]    megous/8723cs-Enable-TDLS-802.11z-support-direct-sta-sta-co.patch
+[ done ]    megous/8723cs-Disable-CONFIG_CONCURRENT_MODE.patch
+[ done ]    megous/8723cs-Set-CONFIG_RTW_SDIO_PM_KEEP_POWER-n-to-fix-su.patch
+[ done ]    megous/8723cs-Resume-wifi-in-a-workqueue.patch
+[ done ]    megous/8723cs-Port-to-5.11.patch
+[ done ]    megous/8723cs-Port-to-5.12.patch
+[ done ]    megous/8723cs-Fix-misleading-indentation.patch
+[ done ]    megous/8723cs-Disable-use-of-NAPI.patch
+[ done ]    megous/8723cs-Fix-indentation.patch
+[ done ]    megous/8723cs-Fix-compile-warnings.patch
+[ done ]    megous/8723cs-Port-to-5.15.patch
+[ done ]    megous/tty-serial-8250-dw-Use-fifo-size-from-DTS.patch
+[ done ]    megous/Mark-some-slow-drivers-for-async-probe-with-PROBE_PR.patch
+[ done ]    megous/clk-Implement-protected-clocks-for-all-OF-clock-prov.patch
+[ done ]    megous/Revert-clk-qcom-Support-protected-clocks-property.patch
+[ done ]    megous/pwm-sun4i-direct-clock-output-support-for-Allwinner-.patch
+[ done ]    megous/pwm-sun4i-Move-delay-to-function.patch
+[ done ]    megous/bus-sunxi-rsb-Always-check-register-address-validity.patch
+[ done ]    megous/bus-sunxi-rsb-Use-devm_platform_ioremap_resource.patch
+[ done ]    megous/bus-sunxi-rsb-Precompute-read-write-commands-and-mas.patch
+[ done ]    megous/bus-sunxi-rsb-Make-interrupt-handling-more-robust.patch
+[ done ]    megous/firmware-arm_scpi-Support-unidirectional-mailbox-cha.patch
+[ done ]    megous/arm64-xor-Select-32regs-without-benchmark-to-speed-u.patch
+[ done ]    megous/misc-modem-power-Power-manager-for-modems.patch
+[ done ]    megous/misc-modem-power-Add-blocking-variant-of-sysfs-power.patch
+[ done ]    megous/misc-modem-power-Move-serial-port-open-to-a-later-st.patch
+[ done ]    megous/misc-modem-power-Hog-CTS-RTS-so-that-userspace-can-t.patch
+[ done ]    megous/misc-modem-power-Use-urcport-all-so-that-modem-gets-.patch
+[ done ]    megous/misc-modem-power-Add-support-for-fast-poweroff-funct.patch
+[ done ]    megous/misc-modem-power-Check-for-modem-firmware-version-an.patch
+[ done ]    megous/misc-modem-power-Fall-back-to-usbat-for-urcport-if-f.patch
+[ done ]    megous/misc-modem-power-Add-fastboot-powerup-mode.patch
+[ done ]    megous/misc-modem-power-Whitespace.patch
+[ done ]    megous/misc-modem-power-Modem-reset-is-broken-with-fast-pow.patch
+[ done ]    megous/rtc-sun6i-Allow-RTC-wakeup-after-shutdown.patch
+[ done ]    megous/rtc-sun6i-Add-NVMEM-provider.patch
+[ done ]    megous/Allow-to-block-userpsace-from-controlling-the-modem-.patch
+[ done ]    megous/mmc-sunxi-mmc-Remove-runtime-PM.patch
+[ done ]    megous/misc-modem-power-Stay-awake-for-at-least-2s-after-mo.patch
+[ done ]    megous/misc-modem-power-Simpler-boot-mode-selection-API-add.patch
+[ done ]    megous/misc-modem-power-GPIO-debugging-API.patch
+[ done ]    megous/media-cedrus-Fix-missing-cleanup-in-error-path.patch
+[ done ]    megous/media-cedrus-Fix-failure-to-clean-up-hardware-on-pro.patch
+[ done ]    megous/Revert-drm-sun4i-lvds-Invert-the-LVDS-polarity.patch
+[ done ]    megous/of-property-fw_devlink-Support-allwinner-sram-links.patch
+[ done ]    megous/mfd-rk808-Add-support-for-power-off-on-RK817.patch
+[ done ]    megous/mfd-rk808-Add-support-for-restart-via-PMIC.patch
+[ done ]    megous/usb-quirks-Add-USB_QUIRK_RESET-for-Quectel-EG25G-Mod.patch
+[ done ]    megous/drm-sun4i-Fix-wrong-location-of-clk_prepare_enable.patch
+[ done ]    megous/drm-panel-st7703-Improve-the-power-up-sequence-of-th.patch
+[ done ]    megous/2-drm-panel-st7703-Improve-the-power-up-sequence-of-th.patch
+[ done ]    megous/drm-sun4i-sun6i_mipi_dsi-fix-horizontal-timing-calcu.patch
+[ done ]    megous/Revert-drm-sun4i-sun6i_mipi_dsi-fix-horizontal-timin.patch
+[ done ]    megous/drm-sun4i-Implement-gamma-correction.patch
+[ done ]    megous/drm-sun4i-sun6i_mipi_dsi-add-support-for-generic-lon.patch
+[ done ]    megous/mfd-rk808-Drop-reset-handlers-for-rk805-rk808-and-rk.patch
+[ done ]    megous/Bluetooth-Add-new-quirk-for-broken-local-ext-feature.patch
+[ done ]    megous/Bluetooth-btrtl-add-support-for-the-RTL8723CS.patch
+[ done ]    megous/Bluetooth-hci_h5-Add-support-for-binding-RTL8723CS-w.patch
+[ done ]    megous/clk-sunxi-ng-add-support-for-rate-resetting-notifier.patch
+[ done ]    megous/clk-sunxi-ng-a64-try-to-keep-TCON0-clock-in-CCU.patch
+[ done ]    megous/drm-sun4i-tcon-hand-over-the-duty-to-keep-TCON0-cloc.patch
+[ done ]    megous/drm-sun4i-Support-taking-over-display-pipeline-state.patch
+[ done ]    megous/drm-sun8i-ui-vi-Fix-layer-zpos-change-atomic-modeset.patch
+[ done ]    megous/drm-sun4i-Mark-one-of-the-UI-planes-as-a-cursor-one.patch
+[ done ]    megous/drm-sun4i-drm-Recover-from-occasional-HW-failures.patch
+[ done ]    megous/drm-debugging-code.patch
+[ done ]    megous/drm-panel-st7703-Fix-xbd599-timings-to-make-refresh-.patch
+[ done ]    megous/clk-sunxi-ng-sun50i-a64-Switch-parent-of-MIPI-DSI-to.patch
+[ done ]    megous/phy-allwinner-sun4i-usb-Add-support-for-usb_role_swi.patch
+[ done ]    megous/regulator-axp20x-Add-support-for-vin-supply-for-driv.patch
+[ done ]    megous/drm-sun4i-decouple-TCON_DCLK_DIV-value-from-pll_mipi.patch
+[ done ]    megous/power-supply-axp20x-usb-power-Support-input-current-.patch
+[ done ]    megous/drm-lima-add-LIMA_BO_FLAG_FORCE_VA.patch
+[ done ]    megous/power-supply-Add-support-for-USB_BC_ENABLED-and-USB_.patch
+[ done ]    megous/video-pwm_bl-Allow-to-change-lth_brightness-via-sysf.patch
+[ done ]    megous/power-supply-axp20x-Export-usb_type-usb_bc_enabled-d.patch
+[ done ]    megous/Report-HDMI-hotplug-events.patch
+[ done ]    megous/usb-typec-anx7688-Add-driver-for-ANX7688-USB-C-HDMI-.patch
+[ done ]    megous/usb-typec-anx7688-Always-enable-VCONN.patch
+[ done ]    megous/usb-typec-anx7688-Monitor-the-current-limit-and-keep.patch
+[ done ]    megous/usb-typec-anx7688-Disable-current-limit-forcing-for-.patch
+[ done ]    megous/usb-typec-anx7688-Move-snk-src_caps-to-the-struct.patch
+[ done ]    megous/usb-typec-anx7688-Allow-to-send-empty-firmware-messa.patch
+[ done ]    megous/usb-typec-anx7688-Store-current-role-setting-in-the-.patch
+[ done ]    megous/usb-typec-anx7688-Allow-to-swap-data-power-roles-via.patch
+[ done ]    megous/usb-typec-anx7688-Prepare-to-handle-messages-from-th.patch
+[ done ]    megous/usb-typec-anx7688-We-may-not-want-try_src.patch
+[ done ]    megous/usb-typec-anx7688-Inform-about-vconn-power-role-chan.patch
+[ done ]    megous/usb-typec-anx7688-Rename-pdo-pkt-to-make-it-less-con.patch
+[ done ]    megous/usb-typec-anx7688-Move-source-sink-caps-to-DT.patch
+[ done ]    megous/usb-typec-anx7688-Implement-more-complete-command-PD.patch
+[ done ]    megous/usb-typec-anx7688-Move-around-locking-a-bit.patch
+[ done ]    megous/usb-typec-anx7688-Increase-wait-time-for-OCM-message.patch
+[ done ]    megous/usb-typec-anx7688-Update-input-current-limit-respect.patch
+[ done ]    megous/usb-typec-anx7688-Kill-the-load-upon-receiving-hard-.patch
+[ done ]    megous/usb-typec-anx7688-Loudly-report-connection-failure.patch
+[ done ]    megous/usb-typec-anx7688-Add-more-docs-to-the-driver.patch
+[ done ]    megous/power-supply-axp20x-usb-power-Don-t-require-exact-va.patch
+[ done ]    megous/usb-typec-anx7688-Fix-flashing-ANX7688-EEPROM.patch
+[ done ]    megous/usb-typec-anx7688-Fix-too-long-udelay-value-for-ARCH.patch
+[ done ]    megous/anx7688-Don-t-reset-input-current-limit-to-500mA-on-.patch
+[ done ]    megous/usb-typec-anx7688-Drop-use-of-nopd_timer-use-a-ktime.patch
+[ done ]    megous/usb-typec-anx7688-Drop-CONFIG_OF-ifdefs.patch
+[ done ]    megous/usb-typec-anx7688-Properly-handle-system-suspend.patch
+[ done ]    megous/usb-typec-anx7688-Add-DP-debug-state-logging.patch
+[ done ]    megous/usb-typec-anx7688-Return-error-from-probe-when-readi.patch
+[ done ]    megous/usb-typec-anx7688-Add-support-for-i2c-bus-supply.patch
+[ done ]    megous/usb-typec-anx7688-Export-HDMI-HPD-status-over-extcon.patch
+[ done ]    megous/iio-adc-axp20x_adc-allow-to-set-TS-pin-to-GPADC-mode.patch
+[ done ]    megous/power-axp20x_battery-Allow-to-set-target-voltage-to-.patch
+[ done ]    megous/power-supply-axp20x_battery-Add-support-for-reportin.patch
+[ done ]    megous/regulator-axp20x-Enable-over-temperature-protection-.patch
+[ done ]    megous/power-supply-axp20x_battery-Setup-thermal-regulation.patch
+[ done ]    megous/power-supply-axp20x_battery-Fix-charging-done-detect.patch
+[ done ]    megous/mfd-axp20x-Add-battery-IRQ-resources.patch
+[ done ]    megous/power-supply-axp20x_battery-Send-uevents-for-status-.patch
+[ done ]    megous/power-supply-axp20x_battery-Monitor-battery-health.patch
+[ done ]    megous/drm-bridge-dw-hdmi-Allow-to-accept-HPD-status-from-o.patch
+[ done ]    megous/power-supply-axp20x-usb-power-Change-Vbus-hold-volta.patch
+[ done ]    megous/power-axp803-Add-interrupts-for-low-battery-power-co.patch
+[ done ]    megous/ASOC-sun9i-hdmi-audio-Initial-implementation.patch
+[ done ]    megous/sunxi-Use-drm_err_probe-to-handle-EPROBE_DEFER-error.patch
+[ done ]    megous/thermal-sun8i-Be-loud-when-probe-fails.patch
+[ done ]    megous/i2c-mv64xxx-Don-t-make-a-fuss-when-pinctrl-recovery-.patch
+[ done ]    megous/sound-soc-sun4i-codec-Silence-deferred-probe-error.patch
+[ done ]    megous/ASoC-sun8i-codec-Add-AIF-ADC-and-DAC-volume-controls.patch
+[ done ]    megous/ASoC-sun50i-codec-analog-Add-support-for-internal-bi.patch
+[ done ]    megous/ASoC-sun50i-codec-analog-Move-suspend-resume-to-set_.patch
+[ done ]    megous/ASoC-sun50i-codec-analog-Enable-jack-detection-on-st.patch
+[ done ]    megous/ASoC-sun8i-codec-Enable-bus-clock-at-STANDBY-and-hig.patch
+[ done ]    megous/ASoC-sun8i-codec-Implement-jack-and-accessory-detect.patch
+[ done ]    megous/ASoC-ec25-New-codec-driver-for-the-EC25-modem.patch
+[ done ]    megous/clk-sunxi-ng-a64-Increase-PLL_AUDIO-base-frequency.patch
+[ done ]    megous/sound-soc-sun8i-codec-Add-support-for-digital-part-o.patch
+[ done ]    megous/sound-soc-sun8i-codec-Drop-debug-statements.patch
+[ done ]    megous/sound-soc-ac100-codec-Support-analog-part-of-X-Power.patch
+[ done ]    megous/sound-soc-ac100-Make-sure-we-shutdown-the-audio-outp.patch
+[ done ]    megous/ASoC-codecs-bt-sco-Fix-stream_name-conflict-that-lea.patch
+[ done ]    megous/ASoC-sunxi-sun8i-codec-Improve-jack-button-handling-.patch
+[ done ]    megous/PM-devfreq-strengthen-check-for-freq_table.patch
+[ done ]    megous/PM-devfreq-Do-not-require-devices-to-have-OPPs.patch
+[ done ]    megous/PM-devfreq-Drop-code-for-descending-freq_table.patch
+[ done ]    megous/PM-devfreq-Add-a-recommended-frequency-helper.patch
+[ done ]    megous/PM-devfreq-Add-a-driver-for-the-sun8i-sun50i-MBUS.patch
+[ done ]    megous/clk-sunxi-ng-Export-CLK_DRAM-for-devfreq.patch
+[ done ]    megous/devfreq-sun8i-mbus-Set-default-minimum-frequency-for.patch
+[ done ]    megous/2-soc-rockchip-fix-usb3otg-port-on-rk3566.patch
+[ done ]    megous/phy-phy-rockchip-inno-usb2-support-address_cells-2.patch
+[ done ]    megous/phy-phy-rockchip-inno-usb2-support-standalone-phy-no.patch
+[ done ]    megous/phy-phy-rockchip-inno-usb2-support-muxed-interrupts.patch
+[ done ]    megous/phy-phy-rockchip-inno-usb2-add-rk3568-support.patch
+[ done ]    megous/phy-rockchip-add-naneng-combo-phy-for-RK3568.patch
+[ done ]    megous/usb-dwc3-core-do-not-use-3.0-clock-when-operating-in.patch
+[ done ]    megous/PCI-dwc-rockchip-set-the-dma_mask-early.patch
+[ done ]    megous/PCI-dwc-rockchip-add-legacy-interrupt-support.patch
+[ done ]    megous/phy-rockchip-inno-usb2-Don-t-print-confusing-deferer.patch
+[ done ]    megous/phy-rockchip-sync-combophy-driver-with-latest-submis.patch
+[ done ]    megous/Add-README.md-with-information-and-u-boot-patches.patch
+[ done ]    megous/thermal-rockchip_thermal-allow-more-resets-for-tsadc.patch
+[ done ]    megous/Defconfigs-for-all-my-devices.patch
+[ done ]    megous/drm-dw-mipi-dsi-rockchip-Ensure-that-lane-is-properl.patch
+[ done ]    megous/drm-bridge-dw-mipi-dsi-Fix-enable-disable-of-dsi-con.patch
+[ done ]    megous/drm-panel-hx8394-Add-driver-for-HX8394-based-HannSta.patch
+[ done ]    megous/drm-panel-hx8394-Improve-the-panel-driver-make-it-wo.patch
+[ done ]    megous/video-fbdev-Add-events-for-early-fb-event-support.patch
+[ done ]    megous/power-rk818-Configure-rk808-clkout2-function.patch
+[ done ]    megous/ARM-dts-rockchip-add-adc-keys-node-to-rk3066a-mk808.patch
+[ done ]    megous/ARM-dts-rockchip-change-rv1108-gmac-nodename.patch
+[ done ]    megous/ARM-dts-rockchip-rename-opp-table-node-names.patch
+[ done ]    megous/ARM-dts-rockchip-add-more-angle-brackets-to-operatin.patch
+[ done ]    megous/ARM-dts-rockchip-swap-timer-clock-names.patch
+[ done ]    megous/ARM-dts-rockchip-change-gpio-nodenames.patch
+[ done ]    megous/ARM-dts-rockchip-remove-usb-phy-fallback-string-from.patch
+[ done ]    megous/ARM-dts-axp813-Add-charger-LED.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-tbs-a711-Enable-charging-LED.patch
+[ done ]    megous/ARM-dts-sun8i-h3-Use-my-own-more-aggressive-OPPs-on-.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-tbs-a711-Add-support-for-the-vibr.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-tbs-a711-Increase-voltage-on-the-.patch
+[ done ]    megous/ARM-dts-sun8i-h3-orange-pi-pc-Increase-max-CPUX-volt.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-tbs-a711-Add-PN544-NFC-support.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-Improve-CPU-OPP-tables-go-up-to-1.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-tbs-a711-Add-powerup-down-support.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-Add-cedrus-video-codec-support-to.patch
+[ done ]    megous/ARM-dts-suni-a83t-Add-i2s0-pins.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-tbs-a711-Add-sound-support-via-AC.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-tbs-a711-Add-regulators-to-the-ac.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-tbs-a711-Add-camera-sensors-HM506.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-tbs-a711-Add-flash-led-support.patch
+[ done ]    megous/ARM-dts-sun5i-Add-soc-handle.patch
+[ done ]    megous/ARM-dts-sun5i-Add-PocketBook-Touch-Lux-3-display-ctp.patch
+[ done ]    megous/ARM-dts-sun5i-a13-pocketbook-touch-lux-3-Add-RTC-clo.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-Set-fifo-size-for-uarts.patch
+[ done ]    megous/ARM-dts-sunxi-a83t-Protect-SCP-clocks.patch
+[ done ]    megous/ARM-dts-sunxi-h3-h5-Protect-SCP-clocks.patch
+[ done ]    megous/ARM-dts-sunxi-a83t-Add-SCPI-protocol.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-tbs-a711-Give-Linux-more-privileg.patch
+[ done ]    megous/ARM-dts-sunxi-Add-aliases-for-MMC.patch
+[ done ]    megous/ARM-dts-sunxi-h3-h5-Add-hdmi-sound-card.patch
+[ done ]    megous/ARM-dts-sun8i-h3-Enable-hdmi-sound-card-on-boards-wi.patch
+[ done ]    megous/ARM-dts-sun8i-h2-plus-bananapi-m2-zero-Enable-HDMI-a.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-Add-hdmi-sound-card.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-Enable-hdmi-sound-card-on-boards-.patch
+[ done ]    megous/ARM-dts-sun8i-r40-Add-I2S-nodes.patch
+[ done ]    megous/ARM-dts-sun8i-r40-Add-hdmi-sound-card.patch
+[ done ]    megous/ARM-dts-sun8i-r40-bananapi-m2-ultra-Enable-HDMI-audi.patch
+[ done ]    megous/ARM-dts-sun8i-v40-bananapi-m2-berry-Enable-HDMI-audi.patch
+[ done ]    megous/ARM-dts-sun8i-a83t-Add-MBUS-node.patch
+[ done ]    megous/Make-microbuttons-on-Orange-Pi-PC-and-PC-2-work-as-p.patch
+[ done ]    megous/ARM-dts-sunxi-h3-h5-Add-SCPI-protocol.patch
+[ done ]    megous/arm64-dts-allwinner-a64-h5-Add-CPU-idle-states.patch
+[ done ]    megous/Disable-idle-states-on-H5-until-I-can-use-crust.patch
+[ done ]    megous/arm64-dts-allwinner-Enforce-consistent-MMC-numbering.patch
+[ done ]    megous/ARM-dts-sunxi-h3-h5-Update-MBUS-node.patch
+[ done ]    megous/Add-support-for-my-private-Sapomat-device.patch
+[ done ]    megous/arm64-dts-rockchip-remove-interrupt-names-from-iommu.patch
+[ done ]    megous/arm64-dts-rockchip-rename-flash-nodenames.patch
+[ done ]    megous/arm64-dts-rockchip-remove-clock_in_out-from-gmac2phy.patch
+[ done ]    megous/arm64-dts-rockchip-remove-ddc-i2c-scl-properties-fro.patch
+[ done ]    megous/arm64-dts-rockchip-add-pmu-and-qos-nodes-for-rk3568.patch
+[ done ]    megous/arm64-dts-rockchip-add-support-for-Firefly-ROC-RK332.patch
+[ done ]    megous/arm64-dts-rockchip-add-support-for-Firefly-ROC-RK339.patch
+[ done ]    megous/arm64-dts-rockchip-set-stdout-path-on-helios64.patch
+[ done ]    megous/arm64-dts-rockchip-add-SPI-support-to-helios64.patch
+[ done ]    megous/arm64-dts-rockchip-enable-tsadc-on-helios64.patch
+[ done ]    megous/arm64-dts-rockchip-add-saradc-node-for-rk3568.patch
+[ done ]    megous/arm64-dts-rockchip-Add-RK3399-ROCK-Pi-4A-board.patch
+[ done ]    megous/arm64-dts-rockchip-Add-RK3399-ROCK-Pi-4B-board.patch
+[ done ]    megous/arm64-dts-rockchip-add-ES8316-codec-for-ROCK-Pi-4.patch
+[ done ]    megous/arm64-dts-rockchip-add-SPDIF-node-for-ROCK-Pi-4.patch
+[ done ]    megous/arm64-dts-rockchip-add-csi-dphy-to-px30.patch
+[ done ]    megous/arm64-dts-rockchip-move-rk3568-dtsi-to-rk356x-dtsi.patch
+[ done ]    megous/arm64-dts-rockchip-split-rk3568-device-tree.patch
+[ done ]    megous/arm64-dts-rockchip-add-rk3566-dtsi.patch
+[ done ]    megous/arm64-dts-rockchip-add-basic-dts-for-Pine64-Quartz64.patch
+[ done ]    megous/arm64-dts-rockchip-add-phy-cells-to-mipi-dsi1-on-rk3.patch
+[ done ]    megous/arm64-dts-rockchip-add-cif-clk-control-pinctrl-for-r.patch
+[ done ]    megous/arm64-dts-rockchip-add-isp1-node-on-rk3399.patch
+[ done ]    megous/arm64-dts-rockchip-add-watchdog-to-rk3568.patch
+[ done ]    megous/arm64-dts-rockchip-Add-VPU-support-for-the-PX30.patch
+[ done ]    megous/arm64-dts-rockchip-fix-rk3568-mbi-alias.patch
+[ done ]    megous/arm64-dts-rockchip-add-rk356x-gmac1-node.patch
+[ done ]    megous/arm64-dts-rockchip-adjust-rk3568-pll-clocks.patch
+[ done ]    megous/arm64-dts-rockchip-enable-gmac-node-on-quartz64-a.patch
+[ done ]    megous/arm64-dts-rockchip-add-gmac0-node-to-rk3568.patch
+[ done ]    megous/arm64-dts-rockchip-rk3568-evb1-v10-add-ethernet-supp.patch
+[ done ]    megous/arm64-dts-rockchip-Add-gru-scarlet-dumo-board.patch
+[ done ]    megous/arm64-dts-rockchip-Setup-USB-typec-port-as-datarole-.patch
+[ done ]    megous/arm64-dts-rockchip-add-thermal-fan-control-to-rockpr.patch
+[ done ]    megous/arm64-dts-rockchip-add-core-io-domains-node-for-rk35.patch
+[ done ]    megous/arm64-dts-rockchip-enable-io-domains-on-rk3568-evb1-.patch
+[ done ]    megous/arm64-dts-rockchip-add-regulators-of-rk809-pmic-to-r.patch
+[ done ]    megous/arm64-dts-rockchip-add-node-for-sd-card-to-rk3568-ev.patch
+[ done ]    megous/arm64-dts-rockchip-add-pinctrl-and-alias-to-emmc-nod.patch
+[ done ]    megous/arm64-dts-rockchip-add-rk356x-gpio-debounce-clocks.patch
+[ done ]    megous/arm64-dts-rockchip-add-rk3568-tsadc-nodes.patch
+[ done ]    megous/arm64-dts-rockchip-add-thermal-support-to-Quartz64-M.patch
+[ done ]    megous/arm64-dts-rockchip-Add-SFC-to-PX30.patch
+[ done ]    megous/arm64-dts-rockchip-Add-SFC-to-RK3308.patch
+[ done ]    megous/arm64-dts-rockchip-Enable-SFC-for-Odroid-Go-Advance.patch
+[ done ]    megous/arm64-dts-rockchip-add-RK3399-Gru-gpio-line-names.patch
+[ done ]    megous/arm64-dts-rockchip-add-missing-rockchip-grf-property.patch
+[ done ]    megous/arm64-dts-rockchip-Re-add-interrupt-names-for-RK3399.patch
+[ done ]    megous/arm64-dts-rockchip-add-saradc-to-rk3568-evb1-v10.patch
+[ done ]    megous/arm64-dts-rockchip-fix-PCI-reg-address-warning-on-rk.patch
+[ done ]    megous/arm64-dts-rockchip-Correct-regulator-for-USB-host-on.patch
+[ done ]    megous/arm64-dts-rockchip-add-Coresight-debug-range-for-RK3.patch
+[ done ]    megous/arm64-dts-rockchip-add-isp-node-for-px30.patch
+[ done ]    megous/arm64-dts-rockchip-hook-up-camera-on-px30-evb.patch
+[ done ]    megous/arm64-dts-rockchip-align-operating-points-table-name.patch
+[ done ]    megous/arm64-dts-rockchip-fix-LDO_REG4-LDO_REG7-confusion-o.patch
+[ done ]    megous/arm64-dts-rockchip-define-iodomains-for-rk3368-lion.patch
+[ done ]    megous/arm64-dts-rockchip-add-phandles-to-muxed-i2c-buses-o.patch
+[ done ]    megous/arm64-dts-rockchip-add-pwm-nodes-for-rk3568.patch
+[ done ]    megous/arm64-dts-rockchip-add-spdif-node-to-rk356x.patch
+[ done ]    megous/arm64-dts-rockchip-enable-spdif-on-Quartz64-A.patch
+[ done ]    megous/arm64-dts-rockchip-add-powerdomains-to-rk3368.patch
+[ done ]    megous/arm64-dts-rockchip-add-chassis-type-property.patch
+[ done ]    megous/arm64-dts-rockchip-change-gpio-nodenames.patch
+[ done ]    megous/arm64-dts-rockchip-Add-i2s1-on-rk356x.patch
+[ done ]    megous/arm64-dts-rockchip-Add-analog-audio-on-Quartz64.patch
+[ done ]    megous/arm64-dts-rockchip-fix-resets-in-tsadc-node-for-rk35.patch
+[ done ]    megous/arm64-dts-rockchip-Add-idle-cooling-devices-to-rk339.patch
+[ done ]    megous/arm64-dts-rockchip-add-usb2-nodes-to-rk3568-device-t.patch
+[ done ]    megous/arm64-dts-rockchip-add-quartz64-a-usb2-support.patch
+[ done ]    megous/arm64-dts-rockchip-enable-sdmmc1-on-Quartz64-Model-A.patch
+[ done ]    megous/arm64-dts-rockchip-add-rk356x-combophy-nodes.patch
+[ done ]    megous/arm64-dts-rockchip-add-rk3568-pcie2x1-controller.patch
+[ done ]    megous/arm64-dts-rockchip-enable-pcie-controller-on-quartz6.patch
+[ done ]    megous/arm64-dts-rockchip-add-rk356x-sata-controller-nodes.patch
+[ done ]    megous/arm64-dts-rockchip-enable-sata1-on-quartz64-a.patch
+[ done ]    megous/arm64-dts-rockchip-add-rk356x-usb3-nodes.patch
+[ done ]    megous/arm64-dts-rockchip-add-usb3-nodes-to-quartz64-model-.patch
+[ done ]    megous/arm64-dts-rockchip-add-quartz64-io-domains.patch
+[ done ]    megous/arm64-dts-rockchip-add-uart-dma-names.patch
+[ done ]    megous/arm64-dts-rockchip-switch-to-rgmii-id-on-Quartz64-Mo.patch
+[ done ]    megous/arm64-dts-rockchip-enable-sdr-104-on-sdmmc.patch
+[ done ]    megous/arm64-dts-rockchip-add-fan-pinctrl-to-quartz64-a.patch
+[ done ]    megous/arm64-dts-rockchip-add-rk356x-sfc-support.patch
+[ done ]    megous/arm64-dts-rockchip-enable-sfc-controller-on-Quartz64.patch
+[ done ]    megous/soc-rockchip-fix-usb3otg-port-on-rk3566.patch
+[ done ]    megous/arm64-dts-rockchip-sync-combophy-changes-from-latest.patch
+[ done ]    megous/arm64-dts-rk3566-quartz64-a-Allow-to-configure-vario.patch
+[ done ]    megous/arm64-dts-rockchip-Add-various-Quartz64-A-board-conf.patch
+[ done ]    megous/arm64-dts-rk3399-Disable-debug-nodes-they-hang-boot.patch
+[ done ]    megous/arm64-dts-sun50i-h5-Use-my-own-more-aggressive-OPPs-.patch
+[ done ]    megous/arm64-dts-sun50i-h5-orangepi-pc2-Add-CPUX-regulator-.patch
+[ done ]    megous/arm64-dts-allwinner-orange-pi-3-Enable-ethernet.patch
+[ done ]    megous/arm64-dts-allwinner-a64-Fix-LRADC-compatible.patch
+[ done ]    megous/arm64-dts-sun50i-a64-pinephone-Add-front-back-camera.patch
+[ done ]    megous/arm64-dts-sun50i-a64-pinephone-Add-Type-C-support-fo.patch
+[ done ]    megous/arm64-dts-sun50i-a64-pinephone-Add-modem-power-manag.patch
+[ done ]    megous/arm64-dts-sun50i-a64-pinephone-Fix-BH-modem-manager-.patch
+[ done ]    megous/arm64-dts-sun50i-a64-pinephone-Add-detailed-OCV-to-c.patch
+[ done ]    megous/arm64-dts-sun50i-a64-pinephone-Shorten-post-power-on.patch
+[ done ]    megous/arm64-dts-sun50i-a64-pinephone-Add-mount-matrix-for-.patch
+[ done ]    megous/arm64-dts-allwinner-pinephone-Add-support-for-Blueto.patch
+[ done ]    megous/arm64-dts-allwinner-pinephone-Enable-internal-HMIC-b.patch
+[ done ]    megous/arm64-dts-allwinner-pinephone-Add-support-for-modem-.patch
+[ done ]    megous/arm64-dts-allwinner-set-GPU-clock-to-432-MHz.patch
+[ done ]    megous/arm64-dts-pinephone-Retain-leds-state-in-suspend.patch
+[ done ]    megous/arm64-dts-sun50i-pinephone-Bump-I2C-frequency-to-400.patch
+[ done ]    megous/arm64-dts-sun50i-pinephone-Add-interrupt-pin-for-WiF.patch
+[ done ]    megous/arm64-dts-sun50i-a64-pinephone-Power-off-the-touch-c.patch
+[ done ]    megous/arm64-dts-sun50i-a64-pinephone-Don-t-make-lradc-keys.patch
+[ done ]    megous/arm64-dts-sun50i-a64-pinephone-Set-minimum-backlight.patch
+[ done ]    megous/arm64-dts-sun50i-a64-pinephone-Add-supply-for-i2c-bu.patch
+[ done ]    megous/arm64-dts-sun50i-a64-pinephone-Workaround-broken-HDM.patch
+[ done ]    megous/8723cs-Enable-WoWLAN.patch
+[ done ]    megous/arm64-dts-pinephone-Add-reboot-mode-driver.patch
+[ done ]    megous/regulator-axp20x-Turn-N_VBUSEN-to-input-on-x-powers-.patch
+[ done ]    megous/arm64-dts-sun50i-a64-pinephone-Add-chassis-type-hand.patch
+[ done ]    megous/arm64-dts-sun50i-a64-Set-fifo-size-for-uarts.patch
+[ done ]    megous/arm64-dts-allwinner-a64-Protect-SCP-clocks.patch
+[ done ]    megous/arm64-dts-allwinner-h6-Protect-SCP-clocks.patch
+[ done ]    megous/arm64-dts-allwinner-a64-Add-SCPI-protocol.patch
+[ done ]    megous/arm64-dts-allwinner-h6-Add-SCPI-protocol.patch
+[ done ]    megous/arm64-dts-rk3399-pinebook-pro-Fix-USB-PD-charging.patch
+[ done ]    megous/arm64-dts-pinebook-pro-Fix-display-initialization.patch
+[ done ]    megous/arm64-dts-allwinner-h6-Add-hdmi-sound-card.patch
+[ done ]    megous/arm64-dts-allwinner-h6-Enable-hdmi-sound-card-on-boa.patch
+[ done ]    megous/arm64-dts-allwinner-a64-Add-hdmi-sound-card.patch
+[ done ]    megous/arm64-dts-allwinner-a64-Enable-hdmi-sound-card-on-bo.patch
+[ done ]    megous/arm64-dts-allwinner-h5-Enable-hdmi-sound-card-on-boa.patch
+[ done ]    megous/arm64-dts-allwinner-a64-pinetab-add-front-camera.patch
+[ done ]    megous/arm64-allwinner-dts-a64-enable-K101-IM2BYL02-panel-f.patch
+[ done ]    megous/arm64-dts-allwinner-a64-Update-MBUS-node.patch
+[ done ]    megous/arm64-dts-rk3399-pinephone-pro-Add-support-for-Pinep.patch
+[ done ]    megous/arm64-dts-pinephone-pro-Fixup-DT-validation-issues.patch
+[ done ]    megous/dts-arm64-rk3399-pinephone-pro-Make-charging-and-per.patch
+[ done ]    megous/arm64-dts-rk3399-pinephone-pro-Fix-goodix-toucscreen.patch
+[ done ]    megous/arm64-dts-rk3399-pinephone-pro-Correct-the-pmu1830-i.patch
+[ done ]    megous/arm64-dts-rk3399-pinephone-pro-Power-off-goodix-touc.patch
+[ done ]    megous/arm64-dts-rk3399-pinephone-pro-Add-support-for-both-.patch
+[ done ]    megous/arm64-dts-rk3399-pinephone-pro-Fix-SD-card-power-sup.patch
+[ done ]    megous/arm64-dts-rk3399-pinephone-pro-Correct-the-battery-s.patch
+[ done ]    megous/arm64-dts-rk3399-pinephone-pro-Cleanup-some-USB-node.patch
+[ done ]    megous/arm64-dts-rk3399-pinephone-pro-Fix-PDOs-to-be-more-r.patch
+[ done ]    megous/arm64-dts-rk3399-pinephone-pro-Add-chassis-type-hand.patch
+[ done ]    megous/arm64-dts-rk3399-pinephone-pro-Add-mmc-aliases-to-ge.patch
+[ done ]    megous/arm64-dts-rk3399-pinephone-pro-Use-a-new-rk818-batte.patch
+[ done ]    megous/usb-typec-anx7688-Disable-I2C-bus-regulator-during-s.patch
+[ done ]    megous/power-rk818-battery-Add-battery-driver-for-RK818.patch
+[ done ]    megous/power-supply-rk818-battery-Use-a-more-propper-compat.patch
+[ done ]    megous/sdhci-arasan-Add-runtime-PM-support.patch
+[ done ]    megous/input-touchscreen-goodix-Respect-IRQ-flags-from-DT-w.patch
+[ done ]    megous/clk-rk3399-Export-SCLK_CIF_OUT_SRC-to-device-tree.patch
+[ done ]    megous/media-i2c-imx258-Add-support-for-powerdown-gpio.patch
+[ done ]    megous/media-i2c-imx258-Don-t-be-too-strict-about-clock-rat.patch
+[ done ]    megous/media-i2c-imx258-Add-support-for-reset-gpio.patch
+[ done ]    megous/media-i2c-imx258-Add-support-for-power-supplies.patch
+[ done ]    megous/phy-rockchip-inno-usb2-Don-t-print-useless-error.patch
+[ done ]    megous/input-touchscreen-goodix-Add-support-for-GT1158.patch
+[ done ]    megous/arm64-dts-rk3566-qaurtz64-a-Fix-ethernet-performance.patch
+[ done ]    megous/drm-panel-st7703-Fix-power-off-sequence.patch
+[ done ]    patches.armbian/drv-bluetooth-btrtl-Add-rtl8822cs-hci-ver-0008.patch
+[ done ]    patches.armbian/drv-bluetooth-hci_h5-power-reset-via-gpio-in-h5_btrt.patch
+[ done ]    patches.armbian/Revert-net-Remove-net-ipx.h-and-uapi-linux-ipx.h-hea.patch
+[ done ]    patches.armbian/Doc-dt-bindings-rtc-sun6i-Add-H616-compatible-string.patch
+[ done ]    patches.armbian/Doc-dt-bindings-net-sun8i-emac-Add-H616-compatible-s.patch
+[ done ]    patches.armbian/Doc-dt-bindings-arm-sunxi-Add-OrangePi-Zero2-binding.patch
+[ done ]    patches.armbian/Doc-u-api-media-v4l-Add-scaling-matrix-control.patch
+[ done ]    patches.armbian/Doc-dt-bindings-gpio-gpio-axp209-add-AXP803-GPIO-bin.patch
+[ done ]    patches.armbian/Doc-dt-bindings-usb-add-binding-for-DWC3-controller-.patch
+[ done ]    patches.armbian/Doc-dt-bindings-arm-sunxi-Add-two-H616-board-compatible-strings.patch
+[ done ]    patches.armbian/drv-mfd-Add-support-for-AC200.patch
+[ done ]    patches.armbian/drv-pinctrl-pinctrl-sun50i-a64-disable_strict_mode.patch
+[ done ]    patches.armbian/drv-net-phy-Add-support-for-AC200-EPHY.patch
+[ done ]    patches.armbian/drv-rtc-sun6i-Add-support-linear-day-storage.patch
+[ done ]    patches.armbian/drv-rtc-sun6i-Add-support-for-broken-down-alarm-regi.patch
+[ done ]    patches.armbian/drv-rtc-sun6i-support-RTCs-without-external-LOSCs.patch
+[ done ]    patches.armbian/drv-gpu-drm-gem-cma-Export-with-handle-allocator.patch
+[ done ]    patches.armbian/drv-gpu-drm-sun4i-Add-GEM-allocator.patch
+[ done ]    patches.armbian/drv-gpu-drm-sun4i-Add-HDMI-audio-sun4i-hdmi-encoder.patch
+[ done ]    patches.armbian/drv-net-stmmac-dwmac-sun8i-second-EMAC-clock-registe.patch
+[ done ]    patches.armbian/drv-phy-sun4i-usb-Rework-HCI-PHY-aka.-pmu_unk1-handl.patch
+[ done ]    patches.armbian/drv-phy-sun4i-usb-Allow-reset-line-to-be-shared.patch
+[ done ]    patches.armbian/drv-phy-sun4i-usb-Introduce-port2-SIDDQ-quirk.patch
+[ done ]    patches.armbian/drv-phy-sun4i-usb-Add-support-for-the-H616-USB-PHY.patch
+[ done ]    patches.armbian/drv-iio-adc-sun4i-gpadc-iio-rename-A33-specified-reg.patch
+[ done ]    patches.armbian/drv-iio-adc-sun4i-gpadc-iio-sampling-start-end-code-.patch
+[ done ]    patches.armbian/drv-iio-adc-sun4i-gpadc-iio-support-clocks-and-reset.patch
+[ done ]    patches.armbian/drv-iio-adc-sun4i-gpadc-iio-multible-sensors-support.patch
+[ done ]    patches.armbian/drv-iio-adc-sun4i-gpadc-iio-support-nvmem-calibratio.patch
+[ done ]    patches.armbian/drv-iio-adc-sun4i-gpadc-iio-add-interrupt-support.patch
+[ done ]    patches.armbian/drv-iio-adc-sun4i-gpadc-iio-add-H3-thermal-sensor.patch
+[ done ]    patches.armbian/drv-iio-adc-sun4i-gpadc-iio-add-A83T-thermal-sensor.patch
+[ done ]    patches.armbian/drv-iio-adc-Kconfig-enable-A80-A64-H5-for-THS.patch
+[ done ]    patches.armbian/drv-iio-adc-sun4i-gpadc-iio-add-A80-thermal-sensor.patch
+[ done ]    patches.armbian/drv-iio-adc-sun4i-gpadc-iio-add-A64-thermal-sensor.patch
+[ done ]    patches.armbian/drv-iio-sun4i-gpadc-iio-don-t-force-poweroff.patch
+[ done ]    patches.armbian/drv-staging-media-sunxi-cedrus-add-H616-variant.patch
+[ done ]    patches.armbian/drv-soc-sunxi-sram-Add-SRAM-C1-H616-handling.patch
+[ done ]    patches.armbian/drv-media-cedrus-hevc-Add-support-for-scaling-lists.patch
+[ done ]    patches.armbian/drv-media-cedrus-Don-t-kernel-map-most-buffers.patch
+[ done ]    patches.armbian/drv-media-cedrus-hevc-tiles-hack.patch
+[ done ]    patches.armbian/drv-media-cedrus-Add-callback-for-buffer-cleanup.patch
+[ done ]    patches.armbian/drv-media-cedrus-hevc-Improve-buffer-management.patch
+[ done ]    patches.armbian/drv-media-cedrus-h264-Improve-buffer-management.patch
+[ done ]    patches.armbian/drv-media-cedrus-check-for-H264-HEVC-limitations.patch
+[ done ]    patches.armbian/WIP-media-uapi-hevc-add-fields-needed-for-rkvdec.patch
+[ done ]    patches.armbian/HACK-media-uapi-hevc-tiles-and-num_slices.patch
+[ done ]    patches.armbian/drv-media-cedrus-10-bit-HEVC-support.patch
+[ done ]    patches.armbian/drv-media-dvb-frontends-si2168-fix-cmd-timeout.patch
+[ done ]    patches.armbian/include-uapi-drm_fourcc-add-ARM-tiled-format-modifie.patch
+[ done ]    patches.armbian/drv-clk-sunxi-ng-ccu-add-min-max-rate-sun50i-a64.patch
+[ done ]    patches.armbian/drv-clk-sunxi-ng-ccu-sun50i-a64-revert-ccu-Pinebook-.patch
+[ done ]    patches.armbian/drv-clocksource-arm_arch_timer-fix-a64-timejump.patch
+[ done ]    patches.armbian/sound-soc-sunxi-sun4i-spdif-add-mclk_multiplier.patch
+[ done ]    patches.armbian/sound-soc-sunxi-sun8i-codec-analog-enable-sound.patch
+[ done ]    patches.armbian/sound-soc-sunxi-Provoke-the-early-load-of-sun8i-codec-analog.patch
+[ done ]    patches.armbian/sound-soc-sunxi-sun4i-codec-adcis-select-capture-source.patch
+[ done ]    patches.armbian/drv-mmc-host-sunxi-mmc-add-h5-emmc-compatible.patch
+[ done ]    patches.armbian/drv-pinctrl-sunxi-pinctrl-sun50i-h6.c-GPIO-disable_strict_mode.patch
+[ done ]    patches.armbian/drv-of-Device-Tree-Overlay-ConfigFS-interface.patch
+[ done ]    patches.armbian/drv-gpu-drm-sun4i-sun8i_mixer.c-add-h3-mixer1.patch
+[ done ]    patches.armbian/drv-mtd-nand-raw-nand_ids.c-add-H27UBG8T2BTR-BC-nand.patch
+[ done ]    patches.armbian/drv-mfd-axp20x-add-sysfs-interface.patch
+[ done ]    patches.armbian/drv-spi-spi.c-fix-cs_gpio-spi-support.patch
+[ done ]    patches.armbian/drv-spi-spidev-remove-warnings.patch
+[ done ]    patches.armbian/drv-spi-spi-sun4i.c-spi-bug-low-on-sck.patch
+[ done ]    patches.armbian/drv-spi-spidev-fix-header-uapi.patch
+[ done ]    patches.armbian/drv-rtc-sun6i-Add-Allwinner-H616-support.patch
+[ done ]    patches.armbian/drv-nvmem-sunxi_sid-Support-SID-on-H616.patch
+[ done ]    patches.armbian/drv-thermal-sun8i_thermal-Add-for-H616.patch
+[ done ]    patches.armbian/drv-iio-adc-axp20x_adc-arm64-dts-axp803-hwmon-enable-thermal.patch
+[ done ]    patches.armbian/drv-gpu-drm-panel-simple-Add-compability-olinuxino-lcd.patch
+[ done ]    patches.armbian/drv-input-touchscreen-sun4i-ts-Enable-parsing.patch
+[ done ]    patches.armbian/drv-mmc-host-sunxi-mmc-Disable-DDR52-mode-on-all-A20-based-boar.patch
+[ done ]    patches.armbian/drv-gpu-panel-simple-Fix-lcd_olinuxino_10-timings.patch
+[ done ]    patches.armbian/drv-usb-gadget-composite-rename-gadget-serial-console-manufactu.patch
+[ done ]    patches.armbian/arm-arm64-dts-Add-leds-axp20x-charger.patch
+[ done ]    patches.armbian/arm-dts-sun9i-a80-add-thermal-sensor.patch
+[ done ]    patches.armbian/arm-dts-sun9i-a80-add-thermal-zone.patch
+[ done ]    patches.armbian/arm-dts-sun7i-a20-Disable-OOB-IRQ-for-brcm-wifi-on-C.patch
+[ done ]    patches.armbian/arm-dts-a20-orangepi-and-mini-fix-phy-mode-hdmi.patch
+[ done ]    patches.armbian/arm-dts-sun8i-h3-nanopi-add-leds-pio-pins.patch
+[ done ]    patches.armbian/arm-dts-a10-cubiebord-a20-cubietruck-green-LED-mmc0-.patch
+[ done ]    patches.armbian/arm-dts-Add-sun8i-h2-plus-nanopi-duo-device.patch
+[ done ]    patches.armbian/arm-dts-Add-sun8i-h2-plus-sunvell-r69-device.patch
+[ done ]    patches.armbian/arm-dts-h3-nanopi-neo-Add-regulator-leds-mmc2.patch
+[ done ]    patches.armbian/arm-dts-h3-nanopi-neo-air-Add-regulator-camera-wifi-.patch
+[ done ]    patches.armbian/arm-dts-h3-orangepi-2-Add-regulator-vdd-cpu.patch
+[ done ]    patches.armbian/arm-dts-sun8i-r40-bananapi-m2-ultra-add-codec-analog.patch
+[ done ]    patches.armbian/arm-dts-sun7i-a20-cubietruck-add-alias-uart2.patch
+[ done ]    patches.armbian/arm-dts-sun8i-v3s-s3-pinecube-enable-sound-codec.patch
+[ done ]    patches.armbian/arm-dts-sun8i-r40-add-clk_out_a-fix-bananam2ultra.patch
+[ done ]    patches.armbian/arm-dts-sun8i-h3-bananapi-m2-plus-add-wifi_pwrseq.patch
+[ done ]    patches.armbian/arm-dts-sun7i-a20-bananapro-add-hdmi-de-reg_ahci_5v.patch
+[ done ]    patches.armbian/Bananapro-add-AXP209-regulators.patch
+[ done ]    patches.armbian/arm-dts-sunxi-h3-h5.dtsi-force-mmc0-bus-width.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-a64-pine64-enable-wifi-mmc1.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h6-Add-AC200-EPHY-related-nodes.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h6-tanix-tx6-Enable-ethernet.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-a64-sopine-baseboard-Add-i2s2-mmc1.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h6-Add-r_uart-uart2-3-pins.patch
+[ done ]    patches.armbian/arm64-dts-allwinner-Add-sun50i-h616.dtsi-file.patch
+[ done ]    patches.armbian/arm64-dts-Add-sun50i-h616-orangepi-zero2-device.patch
+[ done ]    patches.armbian/arm64-dts-Add-sun50i-h616-x96-mate-TV-box-device-sup.patch
+[ done ]    patches.armbian/arm64-dts-allwinner-sun50i-h616-Add-GPU-node.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h616-orangepi-zero2-Enable-GPU-mali.patch
+[ done ]    patches.armbian/arm64-dts-allwinner-sun50i-h616-Add-VPU-node.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h616-x96-mate-T95-eth-sd-card-hack.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h616-x96-mate-add-hdmi.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-a64-pinebook-enable-Bluetooth.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-a64-pine64-enable-Bluetooth.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-a64-sopine-baseboard-enable-Bluetoo.patch
+[ done ]    patches.armbian/arm64-dts-nanopi-a64-set-right-phy-mode-to-rgmii-id.patch
+[ done ]    patches.armbian/arm64-dts-a64-olinuxino-add-regulator-audio-mmc.patch
+[ done ]    patches.armbian/arm64-dts-Add-sun50i-h5-nanopi-k1-plus-device.patch
+[ done ]    patches.armbian/arm64-dts-Add-sun50i-h5-nanopi-neo-core2-device.patch
+[ done ]    patches.armbian/arm64-dts-Add-sun50i-h5-nanopi-neo2-v1.1-device.patch
+[ done ]    patches.armbian/arm64-dts-Add-sun50i-h5-nanopi-m1-plus2-device.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h5-nanopi-neo2-add-regulator-led-tr.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h5-orangepi-pc2-add-spi-flash.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h5-orangepi-prime-add-regulator.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h5-orangepi-zero-plus-add-regulator.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h5-orangepi-zero-plus2-regulator-gp.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h6.dtsi-improve-thermals.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h6-orangepi-3-delete-node-spi0.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h6-orangepi-lite2-spi0-usb3phy-dwc3.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h6-pine-h64-add-wifi-rtl8723cs.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h6-pine-h64-add-dwc3-usb3phy.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-a64-pine64-add-spi0.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h6.dtsi-add-pinctrl-pins-for-spi.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-a64-orangepi-win-add-aliase-etherne.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-a64-force-mmc0-bus-width.patch
+[ done ]    patches.armbian/scripts-add-overlay-compilation-support.patch
+[ done ]    patches.armbian/scripts-enable-kernel-dtbs-symbol-generation.patch
+[ done ]    patches.armbian/Makefile-CONFIG_SHELL-fix-for-builddeb-packaging.patch
+[ done ]    patches.armbian/arm-dts-overlay-Add-Overlays-for-sunxi.patch
+[ done ]    patches.armbian/arm64-dts-allwinner-overlay-Add-Overlays-for-sunxi64.patch
+[ done ]    patches.armbian/scripts-Makefile.lib-Add-Overlays-for-sunxi-sunxi64.patch
+[ done ]    patches.armbian/arm-dts-overlay-sun8i-h3-cpu-clock-add-overclock.patch
+[ done ]    patches.armbian/arm64-dts-overlay-sun50i-a64-pine64-7inch-lcd.patch
+[ done ]    patches.armbian/arm64-dts-overlay-sun50i-h5-add-gpio-regulator-overclock.patch
+[ done ]    patches.armbian/arm-dts-sunxi-h3-h5.dtsi-add-i2s0-i2s1-pins.patch
+[ done ]    patches.armbian/arm-dts-sun5i-a13-olinuxino-micro-add-panel-lcd-olinuxino-4.3.patch
+[ done ]    patches.armbian/arm-dts-sun5i-a13-olinuxino-Add-panel-lcd-olinuxino-4.3-needed-.patch
+[ done ]    patches.armbian/arm-dts-sun7i-a20-olinuxino-micro-emmc-Add-vqmmc-node.patch
+[ done ]    patches.armbian/arm-dts-sun7i-a20-olinuxino-lime2-enable-audio-codec.patch
+[ done ]    patches.armbian/arm-dts-sun7i-a20-olinuxino-lime2-enable-ldo3-always-on.patch
+[ done ]    patches.armbian/arm-dts-sun7i-a20-olimex-som-204-evb-olinuxino-micro-decrease-d.patch
+[ done ]    patches.armbian/arm-dts-sun8i-h3-add-thermal-zones.patch
+[ done ]    patches.armbian/arm64-dts-allwinner-h616-Add-device-node-for-SID.patch
+[ done ]    patches.armbian/arm64-dts-allwinner-h616-Add-thermal-sensor-and-thermal-zones.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-a64-olinuxino-add-boards.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-a64-olinuxino-emmc-enable-bluetooth.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-a64-olinuxino-1Ge16GW-enable-bluetooth.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-a64.dtsi-adjust-thermal-trip-points.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-a64-olinuxino-1Ge16GW-Disable-clock-phase-and-.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h6-orangepi-3-add-r_uart-aliase.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h5-add-cpu-opp-refs.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h5-add-termal-zones.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h6-orangepi-add-cpu-opp-refs.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h6-orangepi-enable-higher-clock-regulator-max-.patch
+[ done ]    patches.armbian/Fix-compile-error-node-not-found.patch
+[ done ]    patches.armbian/drv-net-wireless-realtek-Add-build-rtl8723cs.patch
+[ done ]    patches.armbian/drv-net-rtl8723cs-base.patch
+[ done ]    patches.armbian/drv-net-rtl8723cs-core.patch
+[ done ]    patches.armbian/drv-net-rtl8723cs-include.patch
+[ done ]    patches.armbian/drv-net-rtl8723cs-platform.patch
+[ done ]    patches.armbian/drv-net-rtl8723cs-os_dep.patch
+[ done ]    patches.armbian/drv-net-rtl8723cs-hal-base-rtl8703b-led-efuse.patch
+[ done ]    patches.armbian/drv-net-rtl8723cs-hal-btc.patch
+[ done ]    patches.armbian/drv-net-rtl8723cs-hal-phydm.patch
+[ done ]    patches.armbian/drv-staging-rtl8723bs-AP-bugfix.patch
+[ done ]    patches.armbian/arm-dts-sun8i-h3-orangepi-pc-plus-add-wifi_pwrseq.patch
+[ done ]    patches.armbian/arm64-dts-sun50i-h5-orangepi-prime-add-rtl8723cs.patch
+[ done ]    patches.armbian/arm-dts-sun8i-h2-plus-orangepi-zero-fix-xradio-inter.patch
+[ done ]    patches.armbian/Fix-duplicate-nodes-for-sun50i-h5-orangepi-pc2.patch
+[ done ]    patches.armbian/fix-cpu-opp-table-sun8i-a83t.patch
+[ done ]    patches.armbian/0001-move-sun50i-h6-pwm-settings-to-its-own-overlay.patch
+[ done ]    patches.armbian/0002-compile-the-pwm-overlay.patch
+[ done ]    patches.armbian/0003-add-dump_reg-and-sunxi-sysinfo-drivers.patch
+[ done ]    patches.armbian/0004-add-sunxi-addr-driver-used-to-fix-uwe5622-bluetooth-.patch
+[ done ]    patches.armbian/0005-net-phy-support-yt8531c.patch
+[ done ]    patches.armbian/0007-wireless-add-uwe5622-driver.patch
+[ done ]    patches.armbian/0008-uwe5622-bluetooth-fix-firmware-init-fail.patch
+[ done ]    patches.armbian/0009-allwinner-h6-support-ac200-audio-codec.patch
+[ done ]    patches.armbian/0010-allwinner-add-sunxi_get_soc_chipid-and-sunxi_get_ser.patch
+[ done ]    patches.armbian/0011-add-initial-support-for-orangepi3-lts.patch
+[ done ]    patches.armbian/0012-fix-h6-emmc.patch
+[ done ]    patches.armbian/0013-x-fix-h6-emmc-dts.patch
+[ done ]    patches.armbian/0014-add-uwe-bsp-to-orangepi3-lts-dts-file.patch
+[ done ]    patches.armbian/999-rollback-rsb.patch
+
+Processing file /root/armbian/patch/misc/bootsplash-5.16.y-0000-Revert-fbcon-Avoid-cap-set-but-not-used-warning.patch
+
+Processing file /root/armbian/patch/misc/bootsplash-5.16.y-0001-Revert-fbcon-Add-option-to-enable-legacy-hardware-ac.patch
+
+Processing file /root/armbian/patch/misc/bootsplash-5.16.y-0002-Revert-vgacon-drop-unused-vga_init_done.patch
+
+Processing file /root/armbian/patch/misc/bootsplash-5.16.y-0003-Revert-vgacon-remove-software-scrollback-support.patch
+
+Processing file /root/armbian/patch/misc/bootsplash-5.16.y-0004-Revert-drivers-video-fbcon-fix-NULL-dereference-in-f.patch
+
+Processing file /root/armbian/patch/misc/bootsplash-5.16.y-0005-Revert-fbcon-remove-no-op-fbcon_set_origin.patch
+
+Processing file /root/armbian/patch/misc/bootsplash-5.16.y-0006-Revert-fbcon-remove-now-unusued-softback_lines-curso.patch
+
+Processing file /root/armbian/patch/misc/bootsplash-5.16.y-0007-Revert-fbcon-remove-soft-scrollback-code.patch
+
+Processing file /root/armbian/patch/misc/0001-bootsplash.patch
+
+Processing file /root/armbian/patch/misc/0002-bootsplash.patch
+
+Processing file /root/armbian/patch/misc/0003-bootsplash.patch
+
+Processing file /root/armbian/patch/misc/0004-bootsplash.patch
+
+Processing file /root/armbian/patch/misc/0005-bootsplash.patch
+
+Processing file /root/armbian/patch/misc/0006-bootsplash.patch
+
+Processing file /root/armbian/patch/misc/0007-bootsplash.patch
+
+Processing file /root/armbian/patch/misc/0008-bootsplash.patch
+
+Processing file /root/armbian/patch/misc/0009-bootsplash.patch
+
+Processing file /root/armbian/patch/misc/0010-bootsplash.patch
+
+Processing file /root/armbian/patch/misc/0011-bootsplash.patch
+
+Processing file /root/armbian/patch/misc/0012-bootsplash.patch
+
+Processing file /root/armbian/patch/kernel/archive/sunxi-5.15/disable-debug-rtl8189fs.patch
+The text leading up to this was:
+--------------------------
+|diff --git a/drivers/net/wireless/rtl8189fs/Makefile b/drivers/net/wireless/rtl8189fs/Makefile
+|index dfca305..d56dcfd 100644
+|--- a/drivers/net/wireless/rtl8189fs/Makefile
+|+++ b/drivers/net/wireless/rtl8189fs/Makefile
+--------------------------
+No file to patch.  Skipping patch.
+1 out of 1 hunk ignored
+
+Processing file /root/armbian/patch/kernel/archive/sunxi-5.15/sunxi-gpio-sysfs-build.patch
+
+Processing file /root/armbian/patch/misc/add-armbian-neofetch.patch
+

@@ -1,0 +1,197 @@
+Displaying message: Extension being added sunxi-tools :: added by main.sh:381 -> configuration.sh:174 -> config/sources/families/hp0z.conf:1 -> config/sources/families/include/sunxi_common.inc:1 
+Displaying message: Extension manager processed 3 Extension Methods calls and 3 Extension Method implementations info
+
+## BUILD SCRIPT ENVIRONMENT
+
+Repository: 
+Version: 
+
+Host OS: jammy
+Host arch: amd64
+Host system: Linux 4c440b2d81bf 5.15.0-117-generic #127-Ubuntu SMP Fri Jul 5 20:13:28 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Virtualization type: docker
+
+## Build script directories
+Build directory is located on:
+TARGET        SOURCE                                                   FSTYPE  AVAIL
+/root/armbian /dev/mapper/ubuntu--vg-home[/skerlan/hp0z/armbian-build] ext4   330.2G
+
+Build directory permissions:
+# file: /root/armbian
+# owner: 1000
+# group: 1000
+user::rwx
+group::rwx
+other::r-x
+
+Temp directory permissions:
+# file: /root/armbian/.tmp
+# owner: root
+# group: root
+user::rwx
+group::rwx
+other::r-x
+
+## BUILD CONFIGURATION
+
+Build target:
+Board: khomp
+Branch: current
+Minimal: yes
+Desktop: no
+Desktop Environment: 
+Software groups: 
+
+Kernel configuration:
+Repository: https://mirrors.tuna.tsinghua.edu.cn/git/linux-stable.git
+Branch: branch:linux-5.15.y
+Config file: linux-sunxi-current
+
+U-boot configuration:
+Repository: https://gitee.com/mirrors/u-boot.git
+Branch: tag:v2021.10
+Config file: khomp_defconfig
+
+Partitioning configuration: msdos offset: 4
+Boot partition type: (none) 
+Root partition type: ext4 (1024 MB)
+
+CPU configuration: 480000 - 1400000 with ondemand
+Displaying message: Preparing host info
+Displaying message: Build host OS release jammy info
+Displaying message: Running in container docker info
+Displaying message: apt-cacher is disabled in containers, set NO_APT_CACHER=no to override  wrn
+Displaying message: Downloading sources  info
+Displaying message: Checking git sources u-boot v2021.10 info
+Displaying message:  Cleaning ....  77 files
+Displaying message: Checking git sources linux-mainline/5.15 https://mirrors.tuna.tsinghua.edu.cn/git/linux-stable.gitorigin/linux-5.15.y info
+Displaying message:  Cleaning ....  1816 files
+Displaying message: Switch v5.15.43 = 90dce17b4f29be71c06df696af06be2d582fb499
+Displaying message: Checking git sources sunxi-tools master info
+Displaying message: Up to date
+Displaying message: Compiling sunxi-tools info
+Displaying message: Cleaning /root/armbian/output/debs for khomp current info
+Displaying message: Cleaning output/images info
+Displaying message: Compiling u-boot 2021.10 info
+Displaying message: Compiler version arm-none-linux-gnueabihf-gcc 9.2.1 info
+Displaying message: Checking out to clean sources
+Displaying message: Started patching process for u-boot sunxi-khomp-current info
+Displaying message: Looking for user patches in userpatches/u-boot/u-boot-sunxi info
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] 0000-sunxi-allwinner-a10-spi-driver.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] 0001-add-orange-pi-3-lts-support.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] 0020-sunxi-call-fdt_fixup_ethernet-again-to-set-macaddr-f.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] Bananapro-01-add-hdmi-de-reg_ahci_5v.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] Bananapro-02-add-AXP209-regulators.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] Merrii_Hummingbird_A20.patch  info
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-a20-optional-eMMC.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-a64-olinuxino-emmc-support.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-a64-olinuxino-spl-spi.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-awsom-defconfig.patch  info
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-beelink-x2.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-emmc_support_to_neo1_and_2.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-h616-THS-workaround.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-nanopi-air-emmc.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-nanopi-duo.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-nanopi-m1-plus2-emmc.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-nanopi-neo-core.patch  info
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-nanopi-r1-and-duo2.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-orangepi-plus2-emmc.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-orangepi-zero-plus-pxe-support.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-orangepi-zero-usb-boot-support.patch  info
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-orangepi-zeroplus2_h3.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-pineh64-model-b.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-sunvell-r69.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-xx-boot-auto-dt-select-neo2.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-xx-nanopi-k1-plus-emmc.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-xx-nanopineocore2.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] add-zeropi.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] adjust-default-dram-clockspeeds.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] adjust-small-boards-cpufreq.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] enable-autoboot-keyed.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] enable-ethernet-orangepiprime.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] enable-r_pio-gpio-access-h3-h5.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] fdt-setprop-fix-unaligned-access.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] fix-usb1-vbus-opiwin.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] h3-Fix-PLL1-setup-to-never-use-dividers.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] h3-enable-power-led.patch  info
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] h3-set-safe-axi_apb-clock-dividers.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] lower-default-DRAM-freq-A64-H5.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] pinebook-add-rare-panel-support.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] sun8i-set-machid.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] sunxi-boot-splash.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] sunxi_H616_GPU_enable_hack.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] xxx-disable-de2-to-improve-edid-detection.patch failed wrn
+Displaying message: Make your changes in this directory: /root/armbian/cache/sources/u-boot/v2021.10 wrn
+Displaying message: Press <Enter> after you are done waiting wrn
+Displaying message: You will find your patch here: /root/armbian/output/patch/u-boot-sunxi-current.patch info
+Displaying message: Building deb linux-u-boot-current-khomp_22.05.2_armhf.deb info
+dpkg-deb: building package 'linux-u-boot-khomp-current' in '/tmp/tmp.b9Enuby1MZ/linux-u-boot-current-khomp_22.05.2_armhf.deb'.
+Displaying message: series.conf file visible. Apply
+Displaying message: apply a series of  [653] patches
+Displaying message: skip [1] patches
+Displaying message: Adding Kernel splash file info
+Displaying message: * applying bootsplash-5.16.y-0000-Revert-fbcon-Avoid-cap-set-but-not-used-warning.patch  info
+Displaying message: * applying bootsplash-5.16.y-0001-Revert-fbcon-Add-option-to-enable-legacy-hardware-ac.patch  info
+Displaying message: * applying bootsplash-5.16.y-0002-Revert-vgacon-drop-unused-vga_init_done.patch  info
+Displaying message: * applying bootsplash-5.16.y-0003-Revert-vgacon-remove-software-scrollback-support.patch  info
+Displaying message: * applying bootsplash-5.16.y-0004-Revert-drivers-video-fbcon-fix-NULL-dereference-in-f.patch  info
+Displaying message: * applying bootsplash-5.16.y-0005-Revert-fbcon-remove-no-op-fbcon_set_origin.patch  info
+Displaying message: * applying bootsplash-5.16.y-0006-Revert-fbcon-remove-now-unusued-softback_lines-curso.patch  info
+Displaying message: * applying bootsplash-5.16.y-0007-Revert-fbcon-remove-soft-scrollback-code.patch  info
+Displaying message: * applying 0001-bootsplash.patch  info
+Displaying message: * applying 0002-bootsplash.patch  info
+Displaying message: * applying 0003-bootsplash.patch  info
+Displaying message: * applying 0004-bootsplash.patch  info
+Displaying message: * applying 0005-bootsplash.patch  info
+Displaying message: * applying 0006-bootsplash.patch  info
+Displaying message: * applying 0007-bootsplash.patch  info
+Displaying message: * applying 0008-bootsplash.patch  info
+Displaying message: * applying 0009-bootsplash.patch  info
+Displaying message: * applying 0010-bootsplash.patch  info
+Displaying message: * applying 0011-bootsplash.patch  info
+Displaying message: * applying 0012-bootsplash.patch  info
+Displaying message: Started patching process for kernel sunxi-current info
+Displaying message: Looking for user patches in userpatches/kernel/archive/sunxi-5.15 info
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] disable-debug-rtl8189fs.patch failed wrn
+Displaying message: * [\e[32ml\e[0m][\e[32mc\e[0m] sunxi-gpio-sysfs-build.patch  info
+Displaying message: Make your changes in this directory: /root/armbian/cache/sources/linux-mainline/5.15 wrn
+Displaying message: Press <Enter> after you are done waiting wrn
+Displaying message: You will find your patch here: /root/armbian/output/patch/kernel-sunxi-current.patch info
+Displaying message: Compiling current kernel 5.15.43 info
+Displaying message: Compiler version arm-linux-gnueabihf-gcc 8.3.0 info
+Displaying message: Using kernel config file config/kernel/linux-sunxi-current.config info
+Displaying message: Exporting new kernel config /root/armbian/output/config/linux-sunxi-current.config info
+Displaying message: Compressing sources for the linux-source package
+Displaying message: Make the linux-source package 34 sec. info
+Displaying message: Creating packages
+Displaying message: Building deb armbian-config info
+Displaying message: Checking git sources armbian-config master info
+Displaying message: Up to date
+Displaying message: Checking git sources neofetch 7.1.0 info
+Displaying message: Up to date
+Displaying message: Checking git sources wireguard-manager v1.0.0.10-26-2021 info
+Displaying message: Up to date
+Displaying message: * applying add-armbian-neofetch.patch  info
+Displaying message: Building deb armbian-zsh info
+Displaying message: Checking git sources oh-my-zsh master info
+Displaying message: Up to date
+Displaying message: Checking git sources evalcache master info
+Displaying message: Up to date
+dpkg-deb: building package 'armbian-zsh' in '/tmp/tmp.v0r4zmgLnc/armbian-zsh_22.05.2_all.deb'.
+Displaying message: Merging and packaging linux firmware @host info
+Displaying message: Checking git sources armbian-firmware-git master info
+Displaying message: Up to date
+Displaying message: Building firmware package armbian-firmware_22.05.2_all info
+Displaying message: Merging and packaging linux firmware @host info
+Displaying message: Checking git sources armbian-firmware-git master info
+Displaying message: Up to date
+Displaying message: Checking git sources linux-firmware-git main info
+Displaying message: Up to date
+Displaying message: Building firmware package armbian-firmware-full_22.05.2_all info
+Displaying message: Creating board support package for CLI armbian-bsp-cli-khomp info
+dpkg-deb: building package 'armbian-bsp-cli-khomp' in '/tmp/tmp.Y1DOE4E4rB/armbian-bsp-cli-khomp_22.05.2_armhf.deb'.
+Displaying message: Kernel build done @host info
+Displaying message: Target directory /root/armbian/output/debs/ info
+Displaying message: File name linux-image-current-sunxi_22.05.2_armhf.deb info
+Displaying message: Runtime 6 min info
+Displaying message: Repeat Build Options ./compile.sh docker BOARD=khomp BRANCH=current RELEASE=jammy BUILD_MINIMAL=yes BUILD_DESKTOP=no KERNEL_ONLY=yes KERNEL_CONFIGURE=yes COMPRESS_OUTPUTIMAGE=sha,gpg,img  ext

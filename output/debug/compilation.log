@@ -1,0 +1,374 @@
+
+	== u-boot make khomp_defconfig ==
+
+
+	== u-boot make  ==
+
+.config:1715:warning: override: reassigning to symbol BOOTDELAY
+/root/armbian/cache/sources/u-boot/v2021.10/./tools/binman/binman:12: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.sysconfig import get_python_lib
+/root/armbian/cache/sources/u-boot/v2021.10/./tools/binman/binman:12: DeprecationWarning: The distutils.sysconfig module is deprecated, use sysconfig instead
+  from distutils.sysconfig import get_python_lib
+
+	== kernel ==
+
+scripts/extract-cert.c: In function ‘display_openssl_errors’:
+scripts/extract-cert.c:46:9: warning: ‘ERR_get_error_line’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   46 |         while ((e = ERR_get_error_line(&file, &line))) {
+      |         ^~~~~
+In file included from scripts/extract-cert.c:23:
+/usr/include/openssl/err.h:411:15: note: declared here
+  411 | unsigned long ERR_get_error_line(const char **file, int *line);
+      |               ^~~~~~~~~~~~~~~~~~
+scripts/extract-cert.c: In function ‘drain_openssl_errors’:
+scripts/extract-cert.c:59:9: warning: ‘ERR_get_error_line’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   59 |         while (ERR_get_error_line(&file, &line)) {}
+      |         ^~~~~
+In file included from scripts/extract-cert.c:23:
+/usr/include/openssl/err.h:411:15: note: declared here
+  411 | unsigned long ERR_get_error_line(const char **file, int *line);
+      |               ^~~~~~~~~~~~~~~~~~
+scripts/extract-cert.c: In function ‘main’:
+scripts/extract-cert.c:124:17: warning: ‘ENGINE_load_builtin_engines’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  124 |                 ENGINE_load_builtin_engines();
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:358:28: note: declared here
+  358 | OSSL_DEPRECATEDIN_3_0 void ENGINE_load_builtin_engines(void);
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+scripts/extract-cert.c:126:17: warning: ‘ENGINE_by_id’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  126 |                 e = ENGINE_by_id("pkcs11");
+      |                 ^
+In file included from scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:336:31: note: declared here
+  336 | OSSL_DEPRECATEDIN_3_0 ENGINE *ENGINE_by_id(const char *id);
+      |                               ^~~~~~~~~~~~
+scripts/extract-cert.c:128:17: warning: ‘ENGINE_init’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  128 |                 if (ENGINE_init(e))
+      |                 ^~
+In file included from scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:620:27: note: declared here
+  620 | OSSL_DEPRECATEDIN_3_0 int ENGINE_init(ENGINE *e);
+      |                           ^~~~~~~~~~~
+scripts/extract-cert.c:133:25: warning: ‘ENGINE_ctrl_cmd_string’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  133 |                         ERR(!ENGINE_ctrl_cmd_string(e, "PIN", key_pass, 0), "Set PKCS#11 PIN");
+      |                         ^~~
+In file included from scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:479:5: note: declared here
+  479 | int ENGINE_ctrl_cmd_string(ENGINE *e, const char *cmd_name, const char *arg,
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+scripts/extract-cert.c:134:17: warning: ‘ENGINE_ctrl_cmd’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  134 |                 ENGINE_ctrl_cmd(e, "LOAD_CERT_CTRL", 0, &parms, NULL, 1);
+      |                 ^~~~~~~~~~~~~~~
+In file included from scripts/extract-cert.c:24:
+/usr/include/openssl/engine.h:450:27: note: declared here
+  450 | OSSL_DEPRECATEDIN_3_0 int ENGINE_ctrl_cmd(ENGINE *e, const char *cmd_name,
+      |                           ^~~~~~~~~~~~~~~
+scripts/sign-file.c: In function ‘display_openssl_errors’:
+scripts/sign-file.c:89:9: warning: ‘ERR_get_error_line’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   89 |         while ((e = ERR_get_error_line(&file, &line))) {
+      |         ^~~~~
+In file included from scripts/sign-file.c:29:
+/usr/include/openssl/err.h:411:15: note: declared here
+  411 | unsigned long ERR_get_error_line(const char **file, int *line);
+      |               ^~~~~~~~~~~~~~~~~~
+scripts/sign-file.c: In function ‘drain_openssl_errors’:
+scripts/sign-file.c:102:9: warning: ‘ERR_get_error_line’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  102 |         while (ERR_get_error_line(&file, &line)) {}
+      |         ^~~~~
+In file included from scripts/sign-file.c:29:
+/usr/include/openssl/err.h:411:15: note: declared here
+  411 | unsigned long ERR_get_error_line(const char **file, int *line);
+      |               ^~~~~~~~~~~~~~~~~~
+scripts/sign-file.c: In function ‘read_private_key’:
+scripts/sign-file.c:142:17: warning: ‘ENGINE_load_builtin_engines’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  142 |                 ENGINE_load_builtin_engines();
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from scripts/sign-file.c:30:
+/usr/include/openssl/engine.h:358:28: note: declared here
+  358 | OSSL_DEPRECATEDIN_3_0 void ENGINE_load_builtin_engines(void);
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+scripts/sign-file.c:144:17: warning: ‘ENGINE_by_id’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  144 |                 e = ENGINE_by_id("pkcs11");
+      |                 ^
+In file included from scripts/sign-file.c:30:
+/usr/include/openssl/engine.h:336:31: note: declared here
+  336 | OSSL_DEPRECATEDIN_3_0 ENGINE *ENGINE_by_id(const char *id);
+      |                               ^~~~~~~~~~~~
+scripts/sign-file.c:146:17: warning: ‘ENGINE_init’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  146 |                 if (ENGINE_init(e))
+      |                 ^~
+In file included from scripts/sign-file.c:30:
+/usr/include/openssl/engine.h:620:27: note: declared here
+  620 | OSSL_DEPRECATEDIN_3_0 int ENGINE_init(ENGINE *e);
+      |                           ^~~~~~~~~~~
+scripts/sign-file.c:151:25: warning: ‘ENGINE_ctrl_cmd_string’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  151 |                         ERR(!ENGINE_ctrl_cmd_string(e, "PIN", key_pass, 0),
+      |                         ^~~
+In file included from scripts/sign-file.c:30:
+/usr/include/openssl/engine.h:479:5: note: declared here
+  479 | int ENGINE_ctrl_cmd_string(ENGINE *e, const char *cmd_name, const char *arg,
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+scripts/sign-file.c:153:17: warning: ‘ENGINE_load_private_key’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  153 |                 private_key = ENGINE_load_private_key(e, private_key_name,
+      |                 ^~~~~~~~~~~
+In file included from scripts/sign-file.c:30:
+/usr/include/openssl/engine.h:638:11: note: declared here
+  638 | EVP_PKEY *ENGINE_load_private_key(ENGINE *e, const char *key_id,
+      |           ^~~~~~~~~~~~~~~~~~~~~~~
+drivers/char/sunxi-sysinfo/sunxi-sysinfo.c: In function ‘sunxi_info_probe’:
+drivers/char/sunxi-sysinfo/sunxi-sysinfo.c:125:9: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  quirks = of_device_get_match_data(&pdev->dev);
+         ^
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_security.c: In function ‘aes_cipher’:
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_security.c:1598:5: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+     for (j = 0; j < 8; j++)
+     ^~~
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_security.c:1601:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  payload_index = hdrlen + 8;
+  ^~~~~~~~~~~~~
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_security.c: In function ‘aes_decipher’:
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_security.c:1984:5: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+     for (j = 0; j < 8; j++)
+     ^~~
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_security.c:1987:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  payload_index = hdrlen + 8;
+  ^~~~~~~~~~~~~
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_debug.c: In function ‘dump_drv_version’:
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_debug.c:71:64: warning: macro "__DATE__" might prevent reproducible builds [-Wdate-time]
+  DBG_871X_SEL_NL(sel, "build time: %s %s\n", __DATE__, __TIME__);
+                                                                ^
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_debug.c:71:64: warning: macro "__TIME__" might prevent reproducible builds [-Wdate-time]
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_debug.c:71:64: warning: macro "__DATE__" might prevent reproducible builds [-Wdate-time]
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_debug.c:71:64: warning: macro "__TIME__" might prevent reproducible builds [-Wdate-time]
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_debug.c:71:64: warning: macro "__DATE__" might prevent reproducible builds [-Wdate-time]
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_debug.c:71:64: warning: macro "__TIME__" might prevent reproducible builds [-Wdate-time]
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_mlme_ext.c: In function ‘rtw_delba_check’:
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_mlme_ext.c:12151:7: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+       else
+       ^~~~
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_mlme_ext.c:12153:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+        psta->recvreorder_ctrl[i].enable = _FALSE;
+        ^~~~
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_mlme_ext.c:12154:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (ret != _FAIL)
+       ^~
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_mlme_ext.c:12156:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+        rtw_reset_continual_no_rx_packet(psta, i);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_mlme_ext.c: In function ‘mgt_dispatcher’:
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_mlme_ext.c:1148:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    if(check_fwstate(pmlmepriv, WIFI_AP_STATE) == _TRUE)
+      ^
+drivers/net/wireless/realtek/rtl8723cs/core/rtw_mlme_ext.c:1153:3: note: here
+   case WIFI_ASSOCREQ:
+   ^~~~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/rtw_proc.c:73:10: note: #pragma message: Greater or equal 5.6.0
+  #pragma message "Greater or equal 5.6.0"
+          ^~~~~~~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_write_reg’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:51:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  char input[wrqu->length];
+  ^~~~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_read_reg’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:133:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  char input[wrqu->length];
+  ^~~~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_write_rf’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:265:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  char input[wrqu->length];
+  ^~~~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_read_rf’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:307:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  char input[wrqu->length];
+  ^~~~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_rate’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:447:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  u8  input[wrqu->length];
+  ^~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_channel’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:494:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  u8  input[wrqu->length];
+  ^~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_txpower_index’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:548:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  char input[wrqu->length];
+  ^~~~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_txpower’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:573:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  u8  input[wrqu->length];
+  ^~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_ant_tx’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:611:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  u8  input[wrqu->length];
+  ^~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_ant_rx’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:657:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  u8  input[wrqu->length];
+  ^~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_disable_bt_coexist’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:825:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  u8 input[wrqu->data.length];
+  ^~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_arx’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:863:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  u8  input[wrqu->length];
+  ^~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_pwrtrk’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:1020:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  u8  input[wrqu->length];
+  ^~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_psd’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:1058:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  u8  input[wrqu->length];
+  ^~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_dump’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:1158:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  u8  input[wrqu->length];
+  ^~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_phypara’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:1184:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  char input[wrqu->length];
+  ^~~~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_SetRFPath’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:1210:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  char input[wrqu->data.length];
+  ^~~~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_QueryDrv’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:1237:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  char input[wrqu->data.length];
+  ^~~~
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c: In function ‘rtw_mp_PwrCtlDM’:
+drivers/net/wireless/realtek/rtl8723cs/os_dep/linux/ioctl_mp.c:1266:2: warning: ISO C90 forbids variable length array ‘input’ [-Wvla]
+  u8  input[wrqu->length];
+  ^~
+In file included from drivers/net/wireless/realtek/rtl8723cs/hal/hal_btcoex.c:26:
+drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:69: warning: "RT_TRACE" redefined
+ #define RT_TRACE(dbgtype, dbgflag, printstr)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/include/drv_types.h:65,
+                 from drivers/net/wireless/realtek/rtl8723cs/include/../hal/phydm/phydm_types.h:172,
+                 from drivers/net/wireless/realtek/rtl8723cs/include/../hal/phydm/phydm_precomp.h:24,
+                 from drivers/net/wireless/realtek/rtl8723cs/include/hal_data.h:25,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/hal_btcoex.c:24:
+drivers/net/wireless/realtek/rtl8723cs/include/rtw_debug.h:154: note: this is the location of the previous definition
+ #define RT_TRACE(_Comp, _Level, Fmt) do{}while(0)
+ 
+drivers/net/wireless/realtek/rtl8723cs/hal/hal_mp.c: In function ‘mpt_SetRFPath_8703B’:
+drivers/net/wireless/realtek/rtl8723cs/hal/hal_mp.c:1072:10: warning: statement will never be executed [-Wswitch-unreachable]
+   u1Byte p = 0, i = 0;
+          ^
+In file included from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8192e1Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:69: warning: "RT_TRACE" redefined
+ #define RT_TRACE(dbgtype, dbgflag, printstr)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/include/drv_types.h:65,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:23,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8192e1Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/include/rtw_debug.h:154: note: this is the location of the previous definition
+ #define RT_TRACE(_Comp, _Level, Fmt) do{}while(0)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8723b2Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:69: warning: "RT_TRACE" redefined
+ #define RT_TRACE(dbgtype, dbgflag, printstr)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/include/drv_types.h:65,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:23,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8723b2Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/include/rtw_debug.h:154: note: this is the location of the previous definition
+ #define RT_TRACE(_Comp, _Level, Fmt) do{}while(0)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8723b1Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:69: warning: "RT_TRACE" redefined
+ #define RT_TRACE(dbgtype, dbgflag, printstr)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/include/drv_types.h:65,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:23,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8723b1Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/include/rtw_debug.h:154: note: this is the location of the previous definition
+ #define RT_TRACE(_Comp, _Level, Fmt) do{}while(0)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8812a1Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:69: warning: "RT_TRACE" redefined
+ #define RT_TRACE(dbgtype, dbgflag, printstr)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/include/drv_types.h:65,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:23,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8812a1Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/include/rtw_debug.h:154: note: this is the location of the previous definition
+ #define RT_TRACE(_Comp, _Level, Fmt) do{}while(0)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8192e2Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:69: warning: "RT_TRACE" redefined
+ #define RT_TRACE(dbgtype, dbgflag, printstr)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/include/drv_types.h:65,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:23,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8192e2Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/include/rtw_debug.h:154: note: this is the location of the previous definition
+ #define RT_TRACE(_Comp, _Level, Fmt) do{}while(0)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8812a2Ant.c:15:
+drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:69: warning: "RT_TRACE" redefined
+ #define RT_TRACE(dbgtype, dbgflag, printstr)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/include/drv_types.h:65,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:23,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8812a2Ant.c:15:
+drivers/net/wireless/realtek/rtl8723cs/include/rtw_debug.h:154: note: this is the location of the previous definition
+ #define RT_TRACE(_Comp, _Level, Fmt) do{}while(0)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8821a1Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:69: warning: "RT_TRACE" redefined
+ #define RT_TRACE(dbgtype, dbgflag, printstr)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/include/drv_types.h:65,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:23,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8821a1Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/include/rtw_debug.h:154: note: this is the location of the previous definition
+ #define RT_TRACE(_Comp, _Level, Fmt) do{}while(0)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8821a2Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:69: warning: "RT_TRACE" redefined
+ #define RT_TRACE(dbgtype, dbgflag, printstr)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/include/drv_types.h:65,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:23,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8821a2Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/include/rtw_debug.h:154: note: this is the location of the previous definition
+ #define RT_TRACE(_Comp, _Level, Fmt) do{}while(0)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8821aCsr2Ant.c:15:
+drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:69: warning: "RT_TRACE" redefined
+ #define RT_TRACE(dbgtype, dbgflag, printstr)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/include/drv_types.h:65,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:23,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8821aCsr2Ant.c:15:
+drivers/net/wireless/realtek/rtl8723cs/include/rtw_debug.h:154: note: this is the location of the previous definition
+ #define RT_TRACE(_Comp, _Level, Fmt) do{}while(0)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8703b1Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:69: warning: "RT_TRACE" redefined
+ #define RT_TRACE(dbgtype, dbgflag, printstr)
+ 
+In file included from drivers/net/wireless/realtek/rtl8723cs/include/drv_types.h:65,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/Mp_Precomp.h:23,
+                 from drivers/net/wireless/realtek/rtl8723cs/hal/btc/HalBtc8703b1Ant.c:14:
+drivers/net/wireless/realtek/rtl8723cs/include/rtw_debug.h:154: note: this is the location of the previous definition
+ #define RT_TRACE(_Comp, _Level, Fmt) do{}while(0)
+ 
+drivers/iio/industrialio-core.c:38:19: warning: ‘ignore_matrix’ defined but not used [-Wunused-function]
+ static int __init ignore_matrix(char *str)
+                   ^~~~~~~~~~~~~
+
+	== deb packages: image, headers, firmware, dtb ==
+
+[1mdpkg-buildpackage: [0m[1;33mwarning[0m: using a gain-root-command while being root
+[1;35m dpkg-source --before-build .
+[0m[1;35m debian/rules build
+[0m[1;35m fakeroot -u debian/rules binary
+[0m[1;35m dpkg-genbuildinfo --build=binary -O../linux-5.15.43-khomp_22.05.2_armhf.buildinfo
+[0m[1;35m dpkg-genchanges --build=binary -O../linux-5.15.43-khomp_22.05.2_armhf.changes
+[0m[1;35m dpkg-source --after-build .
+[0m

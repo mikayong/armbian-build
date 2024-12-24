@@ -1,0 +1,416 @@
+diff --git a/arch/arm/dts/Makefile b/arch/arm/dts/Makefile
+index b129fcce..187ff6db 100644
+--- a/arch/arm/dts/Makefile
++++ b/arch/arm/dts/Makefile
+@@ -593,38 +593,7 @@ dtb-$(CONFIG_MACH_SUN8I_A83T) += \
+ 	sun8i-a83t-cubietruck-plus.dtb \
+ 	sun8i-a83t-tbs-a711.dtb
+ dtb-$(CONFIG_MACH_SUN8I_H3) += \
+-	sun8i-h2-plus-bananapi-m2-zero.dtb \
+-	sun8i-h2-plus-libretech-all-h3-cc.dtb \
+-	sun8i-h2-plus-orangepi-r1.dtb \
+-	sun8i-h2-plus-orangepi-zero.dtb \
+-	sun8i-h2-plus-nanopi-duo.dtb \
+-	sun8i-h2-plus-sunvell-r69.dtb \
+-	sun8i-h3-zeropi.dtb \
+-	sun8i-h3-bananapi-m2-plus.dtb \
+-	sun8i-h3-bananapi-m2-plus-v1.2.dtb \
+-	sun8i-h3-beelink-x2.dtb \
+-	sun8i-h3-emlid-neutis-n5h3-devboard.dtb \
+-	sun8i-h3-libretech-all-h3-cc.dtb \
+-	sun8i-h3-mapleboard-mp130.dtb \
+-	sun8i-h3-nanopi-duo2.dtb \
+-	sun8i-h3-nanopi-m1.dtb \
+-	sun8i-h3-nanopi-m1-plus.dtb \
+-	sun8i-h3-nanopi-neo.dtb \
+-	sun8i-h3-nanopi-neo-air.dtb \
+-	sun8i-h3-nanopi-r1.dtb \
+-	sun8i-h3-nanopi-duo2.dtb \
+-	sun8i-h3-orangepi-2.dtb \
+-	sun8i-h3-orangepi-lite.dtb \
+-	sun8i-h3-orangepi-one.dtb \
+-	sun8i-h3-beelink-x2.dtb \
+-	sun8i-h3-orangepi-zero-plus2.dtb \
+-	sun8i-h3-orangepi-pc.dtb \
+-	sun8i-h3-orangepi-pc-plus.dtb \
+-	sun8i-h3-orangepi-plus.dtb \
+-	sun8i-h3-orangepi-plus2e.dtb \
+-	sun8i-h3-orangepi-zero-plus2.dtb \
+-	sun8i-h3-rervision-dvk.dtb \
+-	sun8i-h3-zeropi.dtb
++        sun8i-h3-khomp-zero.dtb 
+ dtb-$(CONFIG_MACH_SUN8I_R40) += \
+ 	sun8i-r40-bananapi-m2-ultra.dtb \
+ 	sun8i-v40-bananapi-m2-berry.dtb
+@@ -649,7 +618,6 @@ dtb-$(CONFIG_MACH_SUN50I_H5) += \
+ dtb-$(CONFIG_MACH_SUN50I_H6) += \
+ 	sun50i-h6-beelink-gs1.dtb \
+ 	sun50i-h6-orangepi-3.dtb \
+-	sun50i-h6-orangepi-3-lts.dtb \
+ 	sun50i-h6-orangepi-lite2.dtb \
+ 	sun50i-h6-orangepi-one-plus.dtb \
+ 	sun50i-h6-pine-h64.dtb \
+diff --git a/arch/arm/dts/sun8i-h3-khomp-zero.dts b/arch/arm/dts/sun8i-h3-khomp-zero.dts
+new file mode 100644
+index 00000000..e3bc8e01
+--- /dev/null
++++ b/arch/arm/dts/sun8i-h3-khomp-zero.dts
+@@ -0,0 +1,24 @@
++
++#include "sun8i-h3-khomp.dts"
++
++/ {
++	model = "khomp";
++	compatible = "khomp,khomp-zero", "allwinner,sun8i-h3";
++};
++
++&mmc2 {
++	pinctrl-names = "default";
++	pinctrl-0 = <&mmc2_8bit_pins>;
++	vmmc-supply = <&reg_vcc3v3>;
++	bus-width = <8>;
++	non-removable;
++	cap-mmc-hw-reset;
++	status = "okay";
++};
++
++&mmc2_8bit_pins {
++	/* Increase drive strength for DDR modes */
++	drive-strength = <40>;
++	/* eMMC is missing pull-ups */
++	bias-pull-up;
++};
+diff --git a/arch/arm/dts/sun8i-h3-khomp.dts b/arch/arm/dts/sun8i-h3-khomp.dts
+new file mode 100644
+index 00000000..1f96f969
+--- /dev/null
++++ b/arch/arm/dts/sun8i-h3-khomp.dts
+@@ -0,0 +1,291 @@
++
++/dts-v1/;
++#include "sun8i-h3.dtsi"
++#include "sunxi-common-regulators.dtsi"
++
++#include <dt-bindings/gpio/gpio.h>
++#include <dt-bindings/input/input.h>
++
++/ {
++        model = "khomp";
++        compatible = "khomp,khomp-zero", "allwinner,sun8i-h3";
++
++        aliases {
++                ethernet0 = &emac;
++                serial0 = &uart0;
++        };
++
++        chosen {
++                stdout-path = "serial0:115200n8";
++        };
++
++        leds {
++                compatible = "gpio-leds";
++
++                pwr_led {
++                        label = "khomp:red:pwr";
++                        gpios = <&r_pio 0 10 GPIO_ACTIVE_HIGH>;
++                        default-state = "on";
++                };
++
++                wlan_led {
++                        label = "khomp:red:wlan";
++                        gpios = <&pio 0 7 GPIO_ACTIVE_LOW>;
++                };
++
++                stat_led {
++                        label = "khomp:green:stat";
++                        gpios = <&pio 0 8 GPIO_ACTIVE_HIGH>;
++                };
++
++                sys_led {
++                        label = "khomp:red:sys";
++                        gpios = <&pio 0 9 GPIO_ACTIVE_HIGH>;
++                };
++
++                opt_led {
++                        label = "khomp:blue:opt";
++                        gpios = <&pio 0 17 GPIO_ACTIVE_HIGH>;
++                };
++        };
++
++        gpio_keys {
++                compatible = "gpio-keys";
++
++                rst {
++                        label = "rst";
++                        linux,code = <KEY_0>;
++                        gpios = <&pio 0 10 GPIO_ACTIVE_LOW>;
++                };
++        };
++
++        reg_vcc1v2: vcc1v2 {
++                compatible = "regulator-fixed";
++                regulator-name = "vcc1v2";
++                regulator-min-microvolt = <1200000>;
++                regulator-max-microvolt = <1200000>;
++                regulator-always-on;
++                regulator-boot-on;
++                vin-supply = <&reg_vcc5v0>;
++        };
++
++        reg_vcc_dram: vcc-dram {
++                compatible = "regulator-fixed";
++                regulator-name = "vcc-dram";
++                regulator-min-microvolt = <1500000>;
++                regulator-max-microvolt = <1500000>;
++                regulator-always-on;
++                regulator-boot-on;
++                vin-supply = <&reg_vcc5v0>;
++        };
++
++        reg_vcc_pa: vcc-pa {
++                compatible = "regulator-fixed";
++                regulator-name = "vcc-pa";
++                regulator-min-microvolt = <3300000>;
++                regulator-max-microvolt = <3300000>;
++                regulator-always-on;
++                regulator-boot-on;
++                vin-supply = <&reg_vcc5v0>;
++        };
++
++        reg_vcc_pc: vcc-pc {
++                compatible = "regulator-fixed";
++                regulator-name = "vcc-pc";
++                regulator-min-microvolt = <3300000>;
++                regulator-max-microvolt = <3300000>;
++                regulator-always-on;
++                regulator-boot-on;
++                vin-supply = <&reg_vcc5v0>;
++        };
++
++        reg_vcc_pf: vcc-pf {
++                compatible = "regulator-fixed";
++                regulator-name = "vcc-pf";
++                regulator-min-microvolt = <3300000>;
++                regulator-max-microvolt = <3300000>;
++                regulator-always-on;
++                regulator-boot-on;
++                vin-supply = <&reg_vcc5v0>;
++        };
++
++        reg_vcc_pg: vcc-pg {
++                compatible = "regulator-fixed";
++                regulator-name = "vcc-pg";
++                regulator-min-microvolt = <3300000>;
++                regulator-max-microvolt = <3300000>;
++                regulator-always-on;
++                regulator-boot-on;
++                vin-supply = <&reg_vcc5v0>;
++        };
++
++        reg_vcc_pl: vcc-pl {
++                compatible = "regulator-fixed";
++                regulator-name = "vcc-pl";
++                regulator-min-microvolt = <3300000>;
++                regulator-max-microvolt = <3300000>;
++                regulator-always-on;
++                regulator-boot-on;
++                vin-supply = <&reg_vcc5v0>;
++        };
++
++        reg_vcc_usb: vcc-usb {
++                compatible = "regulator-fixed";
++                regulator-name = "vcc-usb";
++                regulator-always-on;
++                regulator-boot-on;
++                vin-supply = <&reg_vcc5v0>;
++    };
++
++        reg_phy: phy {
++                compatible = "regulator-fixed";
++                regulator-name = "phy";
++                regulator-min-microvolt = <1100000>;
++                regulator-max-microvolt = <1100000>;
++                regulator-always-on;
++                regulator-boot-on;
++                vin-supply = <&reg_vcc5v0>;
++    };
++
++        reg_phy_io: phy-io {
++                compatible = "regulator-fixed";
++                regulator-name = "phy-io";
++                regulator-min-microvolt = <3300000>;
++                regulator-max-microvolt = <3300000>;
++                regulator-always-on;
++                regulator-boot-on;
++                vin-supply = <&reg_vcc5v0>;
++    };
++
++        reg_vdd_cpux: vdd-cpux {
++                compatible = "regulator-fixed";
++                regulator-name = "vdd-cpux";
++                regulator-min-microvolt = <1300000>;
++                regulator-max-microvolt = <1300000>;
++                regulator-always-on;
++                regulator-boot-on;
++                vin-supply = <&reg_vcc5v0>;
++        };
++
++};
++
++&cpu0 {
++        cpu-supply = <&reg_vdd_cpux>;
++};
++
++&usb_otg {
++    dr_mode = "host";
++    status = "okay";
++};
++
++&ehci0 {
++    dr_mode = "host";
++    status = "okay";
++};
++
++&ehci1 {
++        status = "okay";
++};
++
++&ehci2 {
++        status = "okay";
++};
++
++&ehci3 {
++        status = "okay";
++};
++
++&emac {
++        phy-handle = <&int_mii_phy>;
++        phy-mode = "mii";
++        allwinner,leds-active-high;
++        status = "okay";
++};
++
++&mmc0 {
++        vmmc-supply = <&reg_vcc3v3>;
++        bus-width = <4>;
++        cd-gpios = <&pio 5 6 GPIO_ACTIVE_LOW>; /* PF6 */
++        status = "okay";
++};
++
++&ohci0 {
++        dr_mode = "host";
++        status = "okay";
++};
++
++&ohci1 {
++        status = "okay";
++};
++
++&ohci2 {
++        status = "okay";
++};
++
++&ohci3 {
++        status = "okay";
++};
++
++&uart0 {
++        pinctrl-names = "default";
++        pinctrl-0 = <&uart0_pa_pins>;
++        status = "okay";
++};
++
++&uart1 {
++        pinctrl-names = "default";
++        pinctrl-0 = <&uart1_pins>;
++        status = "okay";
++};
++
++&uart2 {
++        pinctrl-names = "default";
++        pinctrl-0 = <&uart2_pins>;
++        status = "okay";
++};
++
++&uart3 {
++        pinctrl-names = "default";
++        pinctrl-0 = <&uart3_pins>;
++        status = "disabled";
++};
++
++&spi0 {
++        pinctrl-names = "default";
++        pinctrl-0 = <&spi0_pins>;
++        status = "okay";
++    spidev@0 {
++        #address-cells = <1>;
++        #size-cells = <1>;
++        compatible = "semtech,sx1301";
++        reg = <0>;
++        spi-max-frequency = <10000000>;
++    };
++};
++
++&spi1 {
++        pinctrl-names = "default";
++        pinctrl-0 = <&spi1_pins>;
++        status = "okay";
++    spidev@0 {
++        #address-cells = <1>;
++        #size-cells = <1>;
++        compatible = "semtech,sx1301";
++        reg = <0>;
++        spi-max-frequency = <10000000>;
++    };
++};
++
++&reg_usb0_vbus {
++    gpio = <&r_pio 0 2 GPIO_ACTIVE_LOW>;
++    status = "okay";
++};
++
++&usbphy {
++    /*
++    usb0_id_det-gpios = <&pio 6 12 GPIO_ACTIVE_HIGH>;  /PG12
++    usb0_vbus-supply = <&reg_vcc_usb>;
++    vcc-supply = <&reg_vcc_usb>;
++    */
++    status = "okay";
++};
+diff --git a/configs/khomp_defconfig b/configs/khomp_defconfig
+new file mode 100644
+index 00000000..405de8cb
+--- /dev/null
++++ b/configs/khomp_defconfig
+@@ -0,0 +1,31 @@
++CONFIG_ARM=y
++CONFIG_ARCH_SUNXI=y
++CONFIG_SPL=y
++CONFIG_SPL_LIBCOMMON_SUPPORT=y
++CONFIG_MACH_SUN8I_H3=y
++CONFIG_DRAM_CLK=624
++CONFIG_MMC_SUNXI_SLOT_EXTRA=2
++CONFIG_DEFAULT_DEVICE_TREE="sun8i-h3-khomp-zero"
++CONFIG_SUN8I_EMAC=y
++#CONFIG_SY8106A_POWER=n
++CONFIG_USB_EHCI_HCD=y
++CONFIG_USB_OHCI_HCD=y
++CONFIG_DISABLE_CONSOLE=y
++CONFIG_SPL_SERIAL_SUPPORT=n
++CONFIG_REQUIRE_SERIAL_CONSOLE=n
++CONFIG_CONSOLE_NORMAL=n
++CONFIG_CMD_CONSOLE=n
++CONFIG_CONSOLE_MUX=n
++CONFIG_SILENT_CONSOLE=y
++CONFIG_SYS_CONSOLE_IS_IN_ENV=n
++CONFIG_SYS_CONSOLE_OVERWRITE_ROUTINE=n
++CONFIG_SYS_CONSOLE_ENV_OVERWRITE=n
++CONFIG_SERIAL_PRESENT=n
++CONFIG_SPL_SERIAL_PRESENT=n
++CONFIG_SPECIFY_CONSOLE_INDEX=n
++CONFIG_DM_SERIAL=n
++CONFIG_CMD_VIDCONSOLE=n
++CONFIG_ENV_SUPPORT=n
++
++
++

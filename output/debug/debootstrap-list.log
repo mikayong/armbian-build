@@ -1,0 +1,75 @@
+Show variables in function: source [configuration.sh:565]
+
+
+DEBOOTSTRAP_LIST =:
+apt-utils                      bzip2                          ca-certificates                console-setup                 
+cpio                           cron                           dbus                           dbus-user-session             
+dmsetup                        fdisk                          gnupg                          ifupdown                      
+init                           initramfs-tools                iputils-ping                   isc-dhcp-client               
+kmod                           less                           libpam-systemd                 linux-base                    
+locales                        logrotate                      netbase                        netcat-openbsd                
+rsync                          rsyslog                        sudo                           systemd                       
+tzdata                         ucf                            udev                           whiptail                      
+wireless-regdb                                                                                                             
+
+DEBOOTSTRAP_COMPONENTS =:
+main,universe,restricted                                                                                                   
+
+PACKAGE_LIST =:
+bc                             chrony                         cpufrequtils                   debconf-utils                 
+device-tree-compiler           dialog                         fake-hwclock                   figlet                        
+fping                          ncurses-term                   nocache                        openssh-server                
+parted                         psmisc                         python3-apt                    smartmontools                 
+sysfsutils                     toilet                         u-boot-tools                   usbutils                      
+
+PACKAGE_LIST_ADDITIONAL =:
+cracklib-runtime               curl                           htop                           i2c-tools                     
+iozone3                        jq                             libcrack2                      lsof                          
+mc                             mmc-utils                      nano                           net-tools                     
+netplan.io                     network-manager                network-manager-openvpn        resolvconf                    
+sysstat                        wget                           wireless-tools                                               
+
+PACKAGE_LIST_UNINSTALL =:
+                                                                                                                           
+
+Variables after manual configuration
+Show variables in function: source [configuration.sh:693]
+
+
+DEBOOTSTRAP_COMPONENTS =:
+main,universe,restricted                                                                                                   
+
+DEBOOTSTRAP_LIST =:
+apt-utils                      bzip2                          ca-certificates                console-setup                 
+cpio                           cron                           dbus                           dbus-user-session             
+dmsetup                        fdisk                          gnupg                          ifupdown                      
+init                           initramfs-tools                iputils-ping                   isc-dhcp-client               
+kmod                           less                           libpam-systemd                 linux-base                    
+locales                        logrotate                      netbase                        netcat-openbsd                
+rsync                          rsyslog                        sudo                           systemd                       
+tzdata                         ucf                            udev                           whiptail                      
+wireless-regdb                                                                                                             
+
+PACKAGE_LIST =:
+bc                             chrony                         cpufrequtils                   debconf-utils                 
+device-tree-compiler           dialog                         fake-hwclock                   figlet                        
+fping                          ncurses-term                   nocache                        openssh-server                
+parted                         psmisc                         python3-apt                    smartmontools                 
+sysfsutils                     toilet                         u-boot-tools                   usbutils                      
+cracklib-runtime               curl                           htop                           i2c-tools                     
+iozone3                        jq                             libcrack2                      lsof                          
+mc                             mmc-utils                      nano                           net-tools                     
+netplan.io                     network-manager                network-manager-openvpn        resolvconf                    
+sysstat                        wget                           wireless-tools                                               
+
+PACKAGE_MAIN_LIST =:
+bc                             chrony                         cpufrequtils                   debconf-utils                 
+device-tree-compiler           dialog                         fake-hwclock                   figlet                        
+fping                          ncurses-term                   nocache                        openssh-server                
+parted                         psmisc                         python3-apt                    smartmontools                 
+sysfsutils                     toilet                         u-boot-tools                   usbutils                      
+cracklib-runtime               curl                           htop                           i2c-tools                     
+iozone3                        jq                             libcrack2                      lsof                          
+mc                             mmc-utils                      nano                           net-tools                     
+netplan.io                     network-manager                network-manager-openvpn        resolvconf                    
+sysstat                        wget                           wireless-tools                                               
